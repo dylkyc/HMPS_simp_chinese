@@ -1,0 +1,101 @@
+﻿l_simp_chinese:
+
+ chinese_anti_clerical_intelligentsia:0 "知识分子反教权主义"
+ chinese_anti_clerical_intelligentsia_desc:0 "知识分子越来越支持宗教传统与政府分离。此外，现在支持全民公立教育。"
+ heavenly_reform_china:0 "改革中国"
+ heavenly_reform_china_desc:0 "自革命以来，我们的政权已稳定并接纳了中国各族人民。我们现在有能力重新宣称天朝上国的地位。"
+ not_lost_opium_wars_tt:0 ""未输掉鸦片战争""
+ claim_western_sahara:0 "宣称西撒哈拉"
+ claim_western_sahara_desc:0 "我们控制了周边土地，现在可以宣布对西撒哈拉的主权。"
+ claim_central_sahara:0 "宣称中撒哈拉"
+ claim_central_sahara_desc:0 "我们控制了周边土地，现在可以宣布对中撒哈拉的主权。"
+ claim_eastern_sahara:0 "宣称东撒哈拉"
+ claim_eastern_sahara_desc:0 "我们控制了周边土地，现在可以宣布对东撒哈拉的主权。"
+ claim_mauritania:0 "宣称毛里塔尼亚"
+ claim_mauritania_desc:0 "我们控制了周边土地，现在可以宣布对毛里塔尼亚的主权。"
+ claim_timbuktu:0 "宣称廷巴克图"
+ claim_timbuktu_desc:0 "我们控制了周边土地，现在可以宣布对廷巴克图的主权。"
+ claim_niger:0 "宣称尼日尔"
+ claim_niger_desc:0 "我们控制了周边土地，现在可以宣布对尼日尔的主权。"
+ claim_chad:0 "宣称乍得"
+ claim_chad_desc:0 "我们控制了周边土地，现在可以宣布对乍得的主权。"
+
+ WCR_abandon_westernization:0 "放弃西化"
+ WCR_abandon_westernization_desc:0 "新西方制度给我们社会带来的压力太大，难以承受。"
+ abandoned_westernisation_tt:0 "西方化日志条目将被移除，可在日后重新启用。"
+ forts_tooltip:0 "设置变量以移除此决议"
+ compromise_of_1850:0 "1850年妥协案"
+ compromise_of_1850_desc:0 "美国内战将在36个月后爆发"
+
+ french_language_school: "法语学校"
+ french_language_school_desc:0 "19世纪80年代，朱尔·费里实施了一系列严格措施以进一步削弱法国的地区语言。"
+
+ annex_dei:0 "吞并荷属东印度"
+ annex_dei_desc:0 "为改善殖民地资源开采，我们决定直接管理殖民地。"
+ seize_eic_malaya:0 "夺取东印度公司马来亚"
+ seize_eic_malaya_desc:0 "我们可以从英属东印度公司手中夺取马来亚以直接开发。"
+
+ annex_kishi_zhuz:0 "吞并小玉兹"
+ annex_kishi_zhuz_desc:0 "这将帮助我们控制里海。"
+ annex_orta_zhuz:0 "吞并中玉兹"
+ annex_orta_zhuz_desc:0 "我们现在可以巩固我们在中亚的领地。"
+ annex_uly_zhuz:0 "吞并大玉兹"
+ annex_uly_zhuz_desc:0 "这将推进我们在伟大博弈中的事业。"
+ russia_treaty_of_beijing:0 "北京条约"
+ russia_treaty_of_beijing_desc:0 "趁中国内外动荡之际，向其施压以割让满洲面向太平洋的地区。"
+ russia_chuguchak_protocol:0 "塔尔巴哈台条约"
+ russia_chuguchak_protocol_desc:0 "趁中国内外动荡之际，向其施压以割让新疆及巴尔喀什湖地区约91万平方公里的土地。"
+ annex_philippines:0 "吞并菲律宾"
+ annex_philippines_desc:0 "这将帮助我们更直接地投资东亚领土。"
+
+ mexico_natives:0 "中美洲解放"
+ mexico_natives_desc:0 "长久以来我们忽视了中美洲公民，从今以后不再如此。所有对其成功的法律限制将被移除。"
+ afrobrazilian_acceptance:0 "非裔巴西人解放"
+ afrobrazilian_acceptance_desc:0 "长久以来我们忽视了非裔巴西公民，从今以后不再如此。"
+
+ egy_declare_independence:0 "宣布独立"
+ egy_declare_independence_desc:0 "奥斯曼帝国未能直接控制我国。我们现在可以正式宣布独立。"
+
+ begin_westernisation_desc_tt:0 "开始成为认可国家的进程。"
+
+ gm_player:0 "成为游戏管理员"
+ gm_player_desc:0 "如果你选择此项且不是GM，你的头颅将被碾碎。"
+ GM_Self_Action:0 "GM自我操作"
+ GM_Self_Action_desc:0 "对自己使用GM能力。"
+
+ afro_latino_emancipation:0 "非裔拉丁人解放"
+ afro_latino_emancipation_desc:0 "长久以来我们忽视了非裔拉丁公民，从今以后不再如此。"
+
+ repudiate_manifest_destiny:0 "否认昭昭天命"
+ repudiate_manifest_destiny_desc:0 "美国帝国主义者未能将我们驱逐出太平洋海岸。我们嘲笑他们对墨西哥土地的荒谬宣称。"
+ america_win:0 "美国已成功对墨西哥施加其宣称"
+ mexico_win:0 "美国到1860年未能对墨西哥施加其宣称"
+
+ boost_war_support:0 "提升战争支持度"
+ boost_war_support_desc:0 "战争通常不会因为人们厌倦而结束，而是因为缺乏资源或战略失败。"
+ levy_war_taxes:0 "征收战争税"
+ levy_war_taxes_desc:0 "由于战争规模，可以利用这场危机增加对国家产出的控制。"
+ levy_war_taxes.t:0 "必须经过90天"
+ truce_break_decision:0 "撕毁停战协定"
+ truce_break_decision_desc:0 "休战并非不可打破的自然法则。"
+
+ remove_FAQ:0 "移除FAQ"
+ remove_FAQ_desc:0 "永久移除常见问题。"
+ read_FAQ:0 "打开FAQ"
+ read_FAQ_desc:0 "常见问题解答。"
+
+ HMPS_set_reminder:0 "设置提醒"
+ HMPS_set_reminder_desc:0 "设置1个月到15年后的提醒。"
+
+ anti_hungarian_russia_aid:0 "请求俄罗斯援助！"
+ anti_hungarian_russia_aid_desc:0 "我们对抗匈牙利的战争进展不佳。我们可以向最大的邻国请求军事援助"
+ anti_hungarian_russia_aid.t1:0 "如果俄罗斯选择加入我们，他们将获得一个[concept_obligation]"
+
+ increase_conscription_laws:0 "扩大征兵"
+ increase_conscription_laws_desc:0 "我们可以增加征兵要求，以一定代价提升一级军队法律。"
+
+ baltic_independence:0 "波罗的海宪法"
+ baltic_independence_desc:0 "波罗的海公国将成为人民的国家"
+
+ decision_call_election: "举行提前选举"
+ decision_call_election_desc:0 "将进行临时选举，各方将相应组织。"

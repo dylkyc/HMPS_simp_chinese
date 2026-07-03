@@ -1,0 +1,22 @@
+﻿l_simp_chinese:
+ 
+ qing_accept_han:0 "重用汉人"
+ qing_accept_han_desc:0 "战争中满人臣民大量死亡，我们被迫在压力下向更多汉人官员开放高级职位，即使这会削弱满人的权威。"
+ qing_increase_recruitment:0 "下放募兵权"
+ qing_increase_recruitment_desc:0 "太平军已募集数以千计的兵员，我们必须允许地方官员自行组建和指挥民团以应对各方战事。"
+ qing_rescind_increase_recruitment: "停止下放募兵权"
+ qing_rescind_increase_recruitment_desc: "我们将不再允许地方官员自行组建和指挥民团作战。"
+ taiping_reconstruct_society:0 "颁布剿匪令"
+ taiping_reconstruct_society_desc:0 "有组织的抵抗崩溃后，小股残兵继续以土匪的身份骚扰地方聚落。我们必须展现权威。"
+ taiping_reconstruct_state:0 "镇压地方匪患"
+ taiping_reconstruct_state_desc:0 "我们将指示巡抚组建民团，剿灭地方土匪。"
+ button_qing_increase_recruitment_effect_tt: "我们的战争支持度将维持 #bold 100#!，代价是[GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant]和[GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant]每月获得 #bold 10% 政治力量#!"
+ button_qing_rescind_increase_recruitment_effect_tt: "战争支持度不会维持在 #bold 100#!，[GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant]和[GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant]不会每月获得 #bold 10% 政治力量#!"
+ 
+ 
+ BINDING_PERIOD_BUTTON_TEXT_1_YEAR: "#b 1年#!"
+ BINDING_PERIOD_BUTTON_TEXT_2_YEARS: "#b 2年#!"
+ BINDING_PERIOD_BUTTON_TEXT_3_YEARS: "#b 3年#!"
+ BINDING_PERIOD_BUTTON_TEXT_5_YEARS: "#b 5年#!"
+ BINDING_PERIOD_BUTTON_TEXT_7_YEARS: "#b 7年#!"
+ BINDING_PERIOD_BUTTON_TEXT_10_YEARS: "#b 10年#!"

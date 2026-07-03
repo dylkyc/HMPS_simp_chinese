@@ -1,0 +1,38 @@
+﻿l_simp_chinese:
+  company_sandeman: "桑德曼"
+  prestige_good_port: "波特酒"
+  company_hoyo_de_monterrey: "奥约德蒙特雷"
+  prestige_good_cuban_cigars: "古巴雪茄"
+  company_bhp: "布罗肯希尔私人有限公司"
+
+  company_basic_artillery_dynamic_name_tag_singular: "军械"
+  company_basic_artillery_dynamic_name_tag_plural: "军械"
+
+  prestige_good_generic_steamers: "专用蒸汽船"
+  prestige_good_generic_ironclads: "强化铁甲舰"
+  
+  je_prestige_goods_steamers: "$prestige_good_generic_steamers$"
+  je_prestige_goods_steamers_reason: "[SCOPE.sCompany('relevant_company').GetName]已确立为我国经济中的重要参与者。该公司希望发展自己的专用蒸汽船品牌。"
+  je_prestige_goods_steamers_goal: "维持以下条件 [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')]个月："
+
+  je_prestige_goods_steamers_complete_tt: "已完成专用蒸汽船日志条目"
+  je_prestige_goods_steamers_reward_tt:0 "[SCOPE.sCompany('relevant_company').GetName]将能够生产蒸汽船声望商品。"
+
+  not_prestige_good_generic_steamers_var_tt:0 "尚未开发蒸汽船声望商品"
+
+  notification_prestige_goods_steamers_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName]开发了专用蒸汽船"
+  notification_prestige_goods_steamers_unlocked_desc:0 "相关公司拥有的建筑现在可以开始生产蒸汽船声望商品。"
+  notification_prestige_goods_steamers_unlocked_tooltip:0 "蒸汽船已解锁提示"
+  
+  je_prestige_goods_ironclads: "$prestige_good_generic_ironclads$"
+  je_prestige_goods_ironclads_reason: "[SCOPE.sCompany('relevant_company').GetName]已确立为我国经济中的重要参与者。该公司希望发展自己的强化铁甲舰品牌。"
+  je_prestige_goods_ironclads_goal: "维持以下条件 [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')]个月："
+
+  je_prestige_goods_ironclads_complete_tt: "已完成强化铁甲舰日志条目"
+  je_prestige_goods_ironclads_reward_tt:0 "[SCOPE.sCompany('relevant_company').GetName]将能够生产铁甲舰声望商品。"
+
+  not_prestige_good_generic_ironclads_var_tt:0 "尚未开发铁甲舰声望商品"
+
+  notification_prestige_goods_ironclads_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName]开发了强化铁甲舰"
+  notification_prestige_goods_ironclads_unlocked_desc: "[SCOPE.sCompany('relevant_company').GetName]拥有的[Concept('concept_building', '$concept_buildings$')]现在可以开始生产@prestige_good_generic_ironclads! #b $prestige_good_generic_ironclads$#!"
+  notification_prestige_goods_ironclads_unlocked_tooltip:0 "铁甲舰已解锁提示"

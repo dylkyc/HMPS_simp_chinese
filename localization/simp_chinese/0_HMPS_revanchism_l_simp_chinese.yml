@@ -1,0 +1,83 @@
+﻿l_simp_chinese:
+ # Revanchism
+
+ # Revanchism Journal Enteries
+
+ je_hmps_revanchism_generic:0 "[ROOT.GetCountry.GetAdjective]复仇主义"
+je_hmps_revanchism_generic_reason:0 "当前复仇主义：XX%
+复仇主义基于你在战争中失去的主要文化故土州的比例。
+
+作为附庸国，你将不会获得研究加成，而是最多获得每周+1.0自由渴望。
+
+低于10%复仇主义时，最多获得：4%本土防御、4%本土进攻、4%军事科技传播
+
+10%-25%复仇主义时，最多获得：10%本土防御、10%本土进攻、-10%士气损失、10%军事科技传播、5%军事研究速度
+
+25%-50%复仇主义时，最多获得：20%本土防御、20%本土进攻、-20%士气损失、20%士气恢复、20%军事科技传播、10%军事研究速度
+
+50%-100%复仇主义时，最多获得：40%本土防御、40%本土进攻、-40%士气损失、40%士气恢复、40%军事科技传播、20%军事研究速度、4.0%征兵率"
+je_hmps_revanchism_rus_buffer_states:0 "俄罗斯缓冲国复仇主义"
+je_hmps_revanchism_rus_buffer_states_reason:0 "当前俄罗斯复仇主义：来自波罗的海XX%、波兰XX%、鲁塞尼亚XX%。每个区域提供不同的复仇主义加成。"
+ je_hmps_revanchism_ottoman:0 "[ROOT.GetCountry.GetAdjective]复仇主义"
+je_hmps_revanchism_ottoman_reason:0 "奥斯曼复仇主义说明"
+je_hmps_revanchism_spa_colonies:0 "西班牙殖民地复仇主义"
+je_hmps_revanchism_spa_colonies_reason:0 "当前西班牙殖民地复仇主义：XX%。提供最大船舶建造进度和造船效率加成。"
+ je_hmps_revanchism_jap_korea:0 "[ROOT.GetCountry.GetAdjective]朝鲜土地复仇主义"
+je_hmps_revanchism_jap_korea_reason:0 "当前日本朝鲜复仇主义：XX%。提供补给船建造效率、军事科技传播和军事研究速度加成。"
+je_hmps_revanchism_lowland_indonesia:0 "荷兰印尼复仇主义"
+je_hmps_revanchism_lowland_indonesia_reason:0 "当前荷兰印尼复仇主义：XX%。提供最大船舶建造进度、补给船建造效率和补给能力加成。"
+ je_hmps_revanchism_usa_ne:0 "[ROOT.GetCountry.GetAdjective]新英格兰复仇主义"
+je_hmps_revanchism_usa_ne_reason:0 "当前美国新英格兰复仇主义：XX%。提供本土防御、士气下降和征兵率效果。"
+ je_hmps_revanchism_germany:0 "[ROOT.GetCountry.GetAdjective]复仇主义"
+je_hmps_revanchism_germany_reason:0 "当前德国复仇主义：XX%。所有地理区域内的州均被视为故土州。不同范围的复仇主义提供不同的加成。"
+ je_hmps_revanchism_austria:0 "[ROOT.GetCountry.GetAdjective]复仇主义"
+je_hmps_revanchism_austria_reason:0 "当前奥地利复仇主义：XX%。游戏开始时所有地理区域内的州均被视为故土州。整合不同文化可扩展故土州范围。"
+
+ # Revanchism Modifiers
+
+ modifier_hmps_revanchism_target:0 "复仇主义目标"
+ modifier_hmps_revanchism_0:0 "当前复仇主义效果"
+ modifier_hmps_revanchism_10:0 "当前复仇主义效果"
+ modifier_hmps_revanchism_25:0 "当前复仇主义效果"
+ modifier_hmps_revanchism_50:0 "当前复仇主义效果"
+ modifier_hmps_revanchism_subject_0:0 "当前复仇主义效果"
+ modifier_hmps_revanchism_subject_10:0 "当前复仇主义效果"
+ modifier_hmps_revanchism_subject_25:0 "当前复仇主义效果"
+ modifier_hmps_revanchism_subject_50:0 "当前复仇主义效果"
+modifier_hmps_rus_baltic_revanchism:0 "失去波罗的海领土的复仇主义效果"
+modifier_hmps_rus_poland_revanchism:0 "失去波兰领土的复仇主义效果"
+modifier_hmps_rus_ukraine_belarus_revanchism:0 "失去鲁塞尼亚领土的复仇主义效果"
+ modifier_hmps_spa_colony_revanchism:0 "失殖民地复仇主义效果"
+modifier_hmps_jap_korea_revanchism:0 "失去朝鲜领土的复仇主义效果"
+ modifier_hmps_lowland_indonesia_revanchism:0 "失印度尼西亚土地复仇主义效果"
+modifier_hmps_usa_ne_revanchism:0 "失去新英格兰领土的复仇主义效果"
+
+ # Revanchism Geographic Regions
+
+ geographic_region_revanchism_rus_baltics:0 "波罗的海"
+ geographic_region_revanchism_rus_poland:0 "波兰"
+ geographic_region_revanchism_rus_ukraine_belarus:0 "鲁塞尼亚"
+ geographic_region_revanchism_greater_ottoman:0 "大奥斯曼地区"
+ geographic_region_revanchism_ottoman:0 "小奥斯曼地区"
+geographic_region_revanchism_spa_colonies:0 "古巴、波多黎各或菲律宾"
+ geographic_region_revanchism_jap_korea:0 "朝鲜"
+geographic_region_revanchism_lowland_indonesia:0 "荷属印度尼西亚"
+ geographic_region_revanchism_germany:0 "德国"
+ geographic_region_revanchism_greater_austria:0 "大奥地利"
+geographic_region_revanchism_austria:0 "奥地利、波希米亚和匈牙利"
+geographic_region_revanchism_usa_sne:0 "南新英格兰"
+geographic_region_revanchism_usa_nne:0 "北新英格兰"
+geographic_region_revanchism_usa_gm:0 "大马萨诸塞"
+ geographic_region_revanchism_usa_ne:0 "新英格兰"
+geographic_region_revanchism_mex_nrg:0 "占位符"
+
+ # Revanchism Scripted Buttons
+
+hmps_revanchism_gain_claims_button:0 "制造宣称"
+hmps_revanchism_gain_claims_button_desc:0 "在所有未被拥有的复仇主义目标故土州上制造宣称"
+hmps_germany_revanchism_gain_claims_button:0 "制造宣称"
+hmps_germany_revanchism_gain_claims_button_desc:0 "在所有未被拥有的复仇主义目标故土州上制造宣称"
+hmps_austria_revanchism_gain_claims_button:0 "制造宣称"
+hmps_austria_revanchism_gain_claims_button_desc:0 "在所有未被拥有的复仇主义目标故土州上制造宣称"
+hmps_ottoman_revanchism_gain_claims_button:0 "制造宣称"
+hmps_ottoman_revanchism_gain_claims_button_desc:0 "在所有未被拥有的复仇主义目标故土州上制造宣称"

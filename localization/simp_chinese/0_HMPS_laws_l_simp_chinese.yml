@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+ # Ideologies
+ ideology_hierarchic:0 ""阶序主义者""
+ ideology_hierarchic_desc:0 ""#lore 这个集团赞同通过传统形式的税收与劳动关系来维持社会的等级制。#!""
+
+ EFFECTS_ON_ACCEPTANCE_law_language_discrimination: "#tooltippable #tooltip:$BREAKDOWN_TAG$ 低接受度值的人群面临中等后果#!#!"
+ EFFECTS_ON_ACCEPTANCE_law_ethnostate: "#tooltippable #tooltip:$BREAKDOWN_TAG$ 低接受度值的人群面临中等后果#!#!"
+ EFFECTS_ON_ACCEPTANCE_law_national_supremacy: "#tooltippable #tooltip:$BREAKDOWN_TAG$ 低接受度值的人群面临中等后果#!#!"
+ EFFECTS_ON_ACCEPTANCE_law_racial_segregation: "#tooltippable #tooltip:$BREAKDOWN_TAG$ 低接受度值的人群面临中等后果#!#!"
+ EFFECTS_ON_ACCEPTANCE_law_cultural_exclusion: "#tooltippable #tooltip:$BREAKDOWN_TAG$ 低接受度值的人群面临中等后果#!#!"
+ EFFECTS_ON_ACCEPTANCE_law_multicultural: "#tooltippable #tooltip:$BREAKDOWN_TAG$ 低接受度值的人群面临中等后果#!#!"
+ EFFECTS_ON_ACCEPTANCE_law_subjecthood: "#tooltippable #tooltip:$BREAKDOWN_TAG$ 低接受度值的人群面临中等后果#!#!"

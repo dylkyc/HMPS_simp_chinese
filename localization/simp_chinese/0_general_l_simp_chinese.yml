@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+
+ intervene_in_war.tt:0 "加入[SCOPE.sCountry('target_country_scope').GetName]为[concept_war_leader]的任意[concept_war]"
+ intervene_in_war.ttt:0 "不得与任何潜在敌人有[concept_truce]"
+ intervene_in_war:0 "干预战争"
+ intervene_in_war_action_name:0 "加入[TARGET_COUNTRY.GetAdjective]战争"
+    intervene_in_war_desc:0 "此外交行动允许发起者加入目标国家作为战争领袖的任何战争。"
+ intervene_in_war_action_notification_name:0 "[INITIATOR_COUNTRY.GetAdjective]干预[TARGET_COUNTRY.GetName]"
+    intervene_in_war_action_notification_desc:0 "{INITIATOR_COUNTRY.GetName}已宣布将向{TARGET_COUNTRY.GetName}的战争提供全面军事支持。{INITIATOR_COUNTRY.GetAdjective}军队现在将加入{TARGET_COUNTRY.GetAdjective}军队的军事行动。"
+ intervene_in_war_proposal_notification_name:0 "[INITIATOR_COUNTRY.GetName]提议干预"
+    intervene_in_war_proposal_notification_desc:0 "[INITIATOR_COUNTRY.GetName]已宣布希望在我们的战争中向我们提供全面军事支持。"
+ intervene_in_war_action_notification_third_party_name:0 "[INITIATOR_COUNTRY.GetAdjective]干预[TARGET_COUNTRY.GetName]"
+    intervene_in_war_action_notification_third_party_desc:0 "[INITIATOR_COUNTRY.GetName]已宣布将向[TARGET_COUNTRY.GetName]的战争提供全面军事支持。"

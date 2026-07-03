@@ -1,0 +1,30 @@
+﻿l_simp_chinese:
+ rule_HMPS_allow_truce_break:0 "撕毁停战协定"
+ setting_HMPS_allow_truce_break:0 "允许撕毁停战协定"
+  setting_HMPS_allow_truce_break_desc:0 "玩家可以花费恶名来打破休战。"
+ setting_HMPS_disallow_truce_break:0 "禁止撕毁停战协定"
+  setting_HMPS_disallow_truce_break_desc:0 "玩家不能花费恶名来打破休战。"
+
+  rule_HMPS_game_rule_auto_infamy_transfer:0 "自动附庸恶名转移"
+  setting_HMPS_game_rule_auto_infamy_transfer_enabled:0 "自动附庸恶名转移已启用"
+  setting_HMPS_game_rule_auto_infamy_transfer_enabled_desc:0 "自动将附庸获得的50%恶名转移给宗主国。不会减少附庸的恶名。"
+  setting_HMPS_game_rule_auto_infamy_transfer_disabled:0 "自动附庸恶名转移已禁用"
+  setting_HMPS_game_rule_auto_infamy_transfer_disabled_desc:0 "恶名不会从附庸转移给宗主国。"
+  
+  rule_HMPS_game_rule_china_puppets:0 "中国殖民傀儡"
+  setting_HMPS_game_rule_china_puppets_enabled:0 "自动中国殖民傀儡已启用"
+  setting_HMPS_game_rule_china_puppets_enabled_desc:0 "任何非中国国家拥有的中国核心州将给予新创建的殖民附庸。"
+  setting_HMPS_game_rule_china_puppets_disabled:0 "自动中国殖民傀儡已禁用"
+  setting_HMPS_game_rule_china_puppets_disabled_desc:0 "任何人都可以占领中国州。"
+  
+  rule_HMPS_game_rule_india_puppets:0 "印度殖民傀儡"
+  setting_HMPS_game_rule_india_puppets_enabled:0 "自动印度殖民傀儡已启用"
+  setting_HMPS_game_rule_india_puppets_enabled_desc:0 "任何非印度国家拥有的印度州将给予新创建的殖民附庸。"
+  setting_HMPS_game_rule_india_puppets_disabled:0 "自动印度殖民傀儡已禁用"
+  setting_HMPS_game_rule_india_puppets_disabled_desc:0 "任何人都可以占领印度州。"
+  
+  rule_HMPS_punish_major_non_leader_bloc_memebers:0 "大国和列强非领袖集团成员惩罚"
+  setting_HMPS_punish_major_non_leader_bloc_memebers:0 "非领袖集团成员惩罚已启用"
+  setting_HMPS_punish_major_non_leader_bloc_memebers_desc:0 "处于非其领导的集团中的大国和列强将受到惩罚。对大国惩罚轻微，对列强非常严重。"
+  setting_HMPS_punish_major_non_leader_bloc_memebers_disabled:0 "非领袖集团成员惩罚已禁用"
+  setting_HMPS_punish_major_non_leader_bloc_memebers_disabled_desc:0 "不对非领袖集团成员的大国和列强施加惩罚。"

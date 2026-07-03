@@ -1,0 +1,4 @@
+﻿#Unused but chould be useful later
+l_english:
+ state_trait_shale_oil:0 "页岩油"
+ state_trait_tar_sands_oil:0 "焦油砂"

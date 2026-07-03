@@ -1,0 +1,34 @@
+﻿concept_secondary_cultures = {
+	is_loading_tip = yes
+}
+concept_secondary_culture = {
+	is_loading_tip = yes
+}
+
+concept_stigmatised_cultures = {
+	is_loading_tip = yes
+}
+concept_stigmatised_culture = {
+	is_loading_tip = yes
+}
+concept_research_effort = {
+	is_loading_tip = yes
+}
+concept_diseconomies_of_scale = {
+	is_loading_tip = yes
+}
+concept_revanchism = {
+	is_loading_tip = yes
+}
+concept_revanchism_core_state = {
+	is_loading_tip = no
+}
+concept_revanchism_held_state = {
+	is_loading_tip = no
+}
+concept_revanchism_lost_state = {
+	is_loading_tip = no
+}
+concept_revanchism_claimed_cultures = {
+	is_loading_tip = no
+}

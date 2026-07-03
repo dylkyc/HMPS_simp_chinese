@@ -1,0 +1,25 @@
+﻿l_simp_chinese:
+  je_risorgimento: "复兴运动"
+  je_risorgimento_reason: "席卷欧洲的民族主义之风已开始在[ROOT.GetCountry.GetName]吹拂，激励着政府内外的人物展望一个统一意大利的恢复。"
+  austrian_radicals_cooldown_tt: "在过去#bold 三年#!内未使用#bold 鼓励意大利民族主义#!决议"
+  italian_radicals_cooldown_tt: "在过去#bold 三年#!内未使用#bold 赞助统一派情绪#!决议"
+  is_italy_tt: "已成立#bold 意大利#!民族国家"
+  italy_will_get_couped_custom: "并建立#bold 民主共和国#!"
+  italy_will_get_annexed_custom: "并#red 被吞并#!进入领先的意大利国家"
+
+  je_risorgimento_austrian_radicals_button: "鼓励意大利民族主义"
+  je_risorgimento_austrian_radicals_button_desc: "自拿破仑战争结束以来，意大利领土一直被外国势力占据。我们统一半岛的征程可能会激励他们拿起武器反抗自己的压迫者。"
+  je_risorgimento_italian_radicals_button: "煽动统一派情绪"
+  je_risorgimento_italian_radicals_button_desc: "在整个意大利半岛，民众逐渐觉醒并转向统一意大利的理念。如果他们的统治者不愿响应召唤，也许他们的人民会愿意。"
+  ausrad_cooldown_year_tt: "此决议将在#bold 三年#!后再次可用"
+  itarad_cooldown_year_tt: "此决议将在#bold 三年#!后再次可用"
+
+#Spain
+  je_reconquista_reason:0 "在我们最危急的时刻，当被诅咒的元帅的军队烧过我们的土地时，最低劣的忘恩负义者和激进分子抓住了机会，抛弃了他们的#italic 祖国母亲#!的爱与保护。"
+  modifier_HMPS_spain_migration_reconquista_reward:0 "收复运动归国潮"
+  modifier_HMPS_spain_migration_reconquista_reward_tt_for_more:0 "所有西班牙故土州获得#tooltippable;tooltip:[GetPlayer.GetTooltipTag],modifier_HMPS_spain_migration_reconquista_reward_tt $modifier_HMPS_spain_migration_reconquista_reward$ #!"
+  modifier_HMPS_spain_migration_reconquista_reward_tt:0 "西班牙收复失地迁移奖励修正"
+  modifier_spanish_new_world_extractives:0 "收复运动榨取"
+  modifier_spanish_new_world_extractives_tt:0 "西班牙新世界采掘修正"
+  modifier_spanish_new_world_migration:0 "收复运动移民"
+  modifier_spanish_new_world_migration_tt:0 "西班牙新世界迁移修正"

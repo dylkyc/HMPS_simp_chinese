@@ -1,0 +1,18 @@
+﻿l_simp_chinese:
+
+ #Citizenship Law Locking
+ civil_rights:0 "公民权利"
+ civil_rights_desc:0 "所有说我们语言或分享我们遗产的居民都有清晰的入籍途径。"
+ multiculturalism:0 "多元文化主义"
+ multiculturalism_desc:0 "所有居民都有清晰的入籍途径，歧视被官方压制。"
+
+ #Synth Oil
+ synfuel:0 "合成燃料"
+ synfuel_desc:0 "合成燃料是从合成气中获得的液体或气体燃料，由煤或生物质气化或天然气重整产生。"
+
+ #Scout Cruiser Tech
+ scout_cruiser:0 "侦察巡洋舰"
+ scout_cruiser_desc:0 "侦察巡洋舰是一种快速、轻武装和轻装甲的战舰，从驱逐舰升级而来，提供更大的尺寸和火力以用于舰队侦察和分舰队领导角色。"
+
+ #Sahara Colonisation Locking
+ sahara_colonisation:0 "不可能"

@@ -1,0 +1,5 @@
+﻿############ GOVERNMENT BUILDINGS
+
+INJECT:building_university = {
+	has_max_level = yes
+}

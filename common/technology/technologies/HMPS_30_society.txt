@@ -1,0 +1,349 @@
+﻿### ERA 1
+INJECT:urbanization = {
+	modifier = {
+		state_diseconomies_of_scale_per_hundred_urbanization_add = 0.02
+		state_diseconomies_of_scale_max_add = 0.75
+	}
+}
+
+INJECT:urban_planning = {
+	modifier = {
+		state_diseconomies_of_scale_per_hundred_urbanization_add = -0.005
+	}
+}
+
+INJECT:democracy = {
+	modifier = {
+		country_institution_social_security_max_investment_add = -1
+	}
+}
+
+INJECT:centralization = {
+	modifier = {
+		state_tax_capacity_mult = 0.01
+	}
+	on_researched = {
+		custom_tooltip = {
+			text = levy_war_taxes_button
+		}
+	}
+}
+
+INJECT:academia = {
+	modifier = {
+		state_building_university_max_level_add = 5
+	}
+}
+
+INJECT:colonization = {
+	modifier = {
+	}	
+}
+
+INJECT:stock_exchange = {
+	modifier = {
+		state_market_access_price_impact = -0.05
+		country_max_companies_add = 1
+	}
+}
+
+INJECT:mass_communication = {
+	modifier = {
+		country_voting_power_mult = -0.1
+	}
+}
+
+INJECT:empiricism = {
+	modifier = {
+		state_building_university_max_level_add = 5
+	}
+}
+
+### ERA 2
+
+INJECT:egalitarianism = {
+	modifier = {
+		country_institution_schools_max_investment_add = 1
+	}
+}
+
+INJECT:pharmaceuticals = {
+}
+
+INJECT:modern_sewerage = {
+	modifier = {
+		state_diseconomies_of_scale_per_hundred_urbanization_add = -0.005
+	}
+}
+
+INJECT:quinine = {
+	modifier = {
+		country_institution_health_system_max_investment_add = -1
+	}
+}
+
+INJECT:organized_sports = {
+}
+
+INJECT:central_archives = {
+	modifier = {
+		state_tax_capacity_mult = 0.01
+	}
+}
+
+INJECT:central_banking = {
+	modifier = {
+		state_max_trade_advantage_from_capacity_add = -0.05
+		state_market_access_price_impact = 0.025
+	}
+}
+
+REPLACE:joint_stock_companies = { # HMPS moves this tech from ERA 2 to ERA 3
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/joint_stock_companies.dds"
+	category = society
+	
+	modifier = {
+		country_max_companies_add = 1
+		state_urbanization_per_level_mult = -0.1
+	}
+
+	unlocking_technologies = {
+		banking
+		corporate_charters
+	}
+	
+	ai_weight = {
+		value = 2 # important tech
+	}
+}
+
+INJECT:dialectics = {
+	modifier = {
+		state_building_university_max_level_add = 5
+	}
+}
+
+INJECT:psychiatry = {
+}
+
+INJECT:realism = {
+}
+
+INJECT:nationalism = {
+	modifier = {
+		country_infamy_decay_mult = 0.10
+	}
+}
+
+INJECT:labor_movement = {
+}
+
+### ERA 3
+
+INJECT:human_rights = {
+	modifier = {
+		country_institution_health_system_max_investment_add = 1
+	}
+	unlocking_technologies = { #DELETE ME?
+		labor_movement
+	}
+}
+
+INJECT:feminism = {
+}
+
+INJECT:steel_frame_buildings = {
+	modifier = {
+		state_building_construction_sector_max_level_add = 5
+		state_diseconomies_of_scale_per_hundred_urbanization_add = -0.0025
+	}
+}
+
+INJECT:civilizing_mission = {
+	modifier = {
+		country_infamy_decay_mult = 0.10
+	}
+}
+
+INJECT:anarchism = {
+}
+
+INJECT:socialism = {
+}
+
+INJECT:corporatism = {
+}
+
+INJECT:pan-nationalism = {
+	modifier = {
+		country_infamy_generation_mult = -0.15
+		country_infamy_decay_mult = 0.20
+	}
+}
+
+INJECT:mutual_funds = {	
+}
+
+INJECT:investment_banks = {
+	modifier = {
+		country_max_companies_add = -1
+		state_market_access_price_impact = 0.025
+	}	
+}
+
+INJECT:camera = {	
+}
+
+INJECT:philosophical_pragmatism = {
+}
+
+INJECT:identification_documents = {
+	modifier = {
+		state_tax_capacity_mult = 0.02
+	}
+}
+
+REPLACE:central_planning = { #HMPS moves this tech from ERA 4 to ERA 3
+	# Unlocks Command Economy - Economic System Law
+	# Unlocks Vertical Filing Cabinets PM in Government Administrations
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/central_planning.dds"
+	category = society
+	
+	modifier = {
+		state_tax_capacity_add = 25
+		state_tax_capacity_mult = 0.03
+		country_government_dividends_efficiency_add = 0.05
+		country_institution_home_affairs_max_investment_add = 1
+		state_incorporation_speed_mult = 0.05
+		state_literacy_growth_add = 0.0002
+	}
+	
+	unlocking_technologies = {
+		identification_documents
+	}
+	
+	ai_weight = {
+		value = 1.5 # Important in general
+	}
+}
+
+### ERA 4
+INJECT:elevator = {
+	modifier = {
+		state_building_construction_sector_max_level_add = 15
+		country_max_weekly_construction_progress_add = 5
+		state_diseconomies_of_scale_per_hundred_urbanization_add = -0.0025
+	}
+}
+
+INJECT:zeppelins = {
+}
+
+INJECT:malaria_prevention = {
+	modifier = {
+		country_infamy_decay_mult = 0.40
+	}
+}
+
+#INJECT:central_planning = { #HMPS moves this tech to ERA 3
+#}
+
+INJECT:political_agitation = {
+	modifier = {
+		state_yearly_forced_population_replacement_mult = 1 #makes forced pop replacedment 100% more impactful
+	}
+	
+	unlocking_technologies = {
+		human_rights
+	}
+}
+
+INJECT:international_exchange_standards = {
+	modifier = {
+		state_market_access_price_impact = 0.025
+	}
+}
+
+INJECT:corporate_management = {
+}
+
+INJECT:psychoanalysis = {
+}
+
+INJECT:film = {
+}
+
+INJECT:multilateral_alliances = {
+	modifier = {
+		country_infamy_generation_mult = -0.05
+		country_infamy_decay_mult = 0.80
+	}
+}
+
+REPLACE:analytical_philosophy = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
+	category = society
+	
+	modifier = {
+		state_building_university_max_level_add = 5
+	}
+	
+	unlocking_technologies = {
+		philosophical_pragmatism
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+### ERA 5
+
+INJECT:mass_surveillance = {
+	modifier = {
+		state_tax_capacity_mult = 0.01
+	}
+}
+
+INJECT:antibiotics = {
+}
+
+INJECT:mass_propaganda = {
+	modifier = {
+		country_infamy_generation_mult = -0.15
+		country_infamy_decay_mult = 1.40
+		state_yearly_forced_population_replacement_mult = 1 #makes forced pop replacedment 100% more impactful
+		state_yearly_forced_conversion_mult = 1  #makes forced conversion 100% more impactful
+		state_yearly_forced_language_learning_mult = 1 #makes forced language learning 100% more impactful
+	}
+}
+
+INJECT:modern_financial_instruments = {
+	modifier = {
+		state_market_access_price_impact = 0.025
+	}
+}
+
+INJECT:macroeconomics = {
+	modifier = {
+		state_market_access_price_impact = -0.025
+	}
+}
+
+INJECT:behaviorism = {
+}
+
+#INJECT:analytical_philosophy = { #HMPS moves this tech to ERA 4
+#}
+
+INJECT:paved_roads = {
+	modifier = {
+		country_max_weekly_construction_progress_add = 10
+		state_diseconomies_of_scale_per_hundred_urbanization_add = -0.0025
+	}
+}
+
+### ERA 6

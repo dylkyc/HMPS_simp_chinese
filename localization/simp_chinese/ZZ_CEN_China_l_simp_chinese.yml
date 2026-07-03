@@ -1,0 +1,68 @@
+﻿l_simp_chinese:
+
+ # JEs
+ je_xinhai_revolution:0 "辛亥革命"
+ je_xinhai_revolution_lobby:0 "对清朝未能抵抗外国侵略以及满族文化持续优越地位的不满可能达到沸点。王朝最好在其宣称中国主权的努力中取得成功，否则就需要宽容对待汉族。"
+ je_xinhai_revolution_reason:1 "对汉族的持续歧视导致反满情绪上升，以及对清政府失败的不满。共和派支持率上升，决心恢复汉族的地位。
+
+如果对汉族的歧视继续下去，可能会对统治者产生危险后果。
+
+稳定清朝统治将使汉人成为主要文化。或者通过颁布共和国法律结束清朝统治将终结满族霸权。"
+ je_chinese_industry:0 "低效采矿"
+ je_chinese_industry_reason:1 "#bold 进度条#！的状态将随着我们扩建铁路网而推进。"
+ je_chinese_industry_goal:0 "铁路扩展"
+ je_chinese_industry_special_tooltip_advance:0 "每个州的第一个铁路不计入进展，但之后建造的铁路将计入。"
+ je_china_economic_success_tt:0 "#bold 铁路扩建#！已达到#variable 100%#！"
+ je_china_economic_complete_tt:0 "开始政治#bold 西化#！进程！"
+ je_chinese_agriculture:0 "自给农业增长"
+ je_chinese_agriculture_reason:0 "18世纪末至19世纪初，随着中国人口激增，对主食商品的需求显著增加。
+
+这导致人均糖和燃料消费减少，种植园作物转向卡路里作物。
+
+改革农业：研究肥料技术和建造农业建筑将推进农业改革。"
+ chinese_agriculture_complete_tt:0 "#bold 农业改革#！已达到#variable 100#！"
+ je_army_reform_china:0 "军队改革"
+ je_army_reform_china_reason:1 "进度条状态将基于军事技术和某些事件推进。达到100%将成功完成军队改革，淘汰旧有的八旗制度和绿营军，为新军让路。"
+ china_army_reform_tt:0 "已成功完成#BOLD 军队改革"
+ china_army_reform_rename_tt:0 "[GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetName]将更名为#Yellow 新军#！"
+ je_army_reform_china_special_tooltip_advance:0 "以下条件将推进进度条：
+经历太平天国起义+15%
+经历义和团运动+15%
+研究执法+10%
+研究以下每项+20%：陆军预备役、后勤、征兵办公室、军事统计、兵棋推演"
+
+ # Events
+ xinhai_revolution_events.1.t:0 "反满情绪"
+ xinhai_revolution_events.1.d:2 "[ROOT.GetCountry.GetName]持续的官方歧视激怒了汉族国民，他们正组织成持不同政见的共和运动，决心终结满族君主制并建立共和国。许多朝臣现在敦促统治者解决这种歧视并遏制共和威胁。"
+ xinhai_revolution_events.1.f:0 "经过成熟审议和充分准备，我已决定实行革命方案，革命分三个阶段进行。第一阶段是军政府时期。第二阶段是政治训政时期。第三阶段是宪政实施时期。"
+ xinhai_revolution_events.1.a:0 "帝国王朝必须得到保障"
+ xinhai_revolution_events.2.t:0 "武昌起义"
+ xinhai_revolution_events.2.d:0 "受同盟会革命思想影响，武昌地区爆发武装起义，辛亥革命开始。革命者目前正就退位和新共和国与袁世凯秘密谈判。"
+ xinhai_revolution_events.2.f:0 "随着我们的国家从专制向代议制民主转变，我们怎能不创新并落后于其他国家？"
+ xinhai_revolution_events.2.a:0 "北洋军将恢复秩序"
+ xinhai_revolution_events.2.b:0 "共和国将延续下去"
+
+ # Modifiers
+ eight_banners:0 "八旗"
+ chinese_economic_stagnation:0 "低效采矿"
+ modifier_china_subsistence_agri:0 "无利可图的投资"
+ modifier_agricultural_econ_agri_debuff:0 "地方自给经济"
+ modifier_bannermen_decadence:0 "八旗腐败"
+ modifier_banner_system:0 "八旗制度"
+ modifier_new_army:0 "新军"
+ modifier_green_standard_army:0 "绿营"
+
+ # Progress Bars
+ chinese_agriculture_progress_bar: "农业改革"
+ chinese_agriculture_progress_bar_desc: "研发和实施新农业方法"
+ researched_intensive_agriculture:0 "已研究集约农业"
+ researched_improved_fertilizer:0 "已研究改良化肥"
+ researched_nitrogen_fixation: "已研发氮固定"
+
+ # Amendments
+ amendment_imperial_exams: "科举制度"
+ amendment_imperial_exams_desc:0 "科举考试是为选拔官僚机构候选人而管理的公务员考试制度，削弱了世袭贵族和军事权威的权力，导致了士大夫阶层学者的崛起。"
+ amendment_imperial_eunuchs: "太监内廷"
+ amendment_imperial_eunuchs_desc:0 "据说宦官代表皇帝的个人意志，而官员代表官僚机构的替代政治意志。宦官以其腐败而臭名昭著，尽管其数量在清朝时期显著减少。"
+ amendment_queue_order:0 "辫子法令"
+ amendment_queue_order_desc:0 ""留发不留头，留头不留发。"为了强制推行这种发型并证明汉人对清朝统治和满族人的服从，汉族男性被给予最后通牒：采用这种发型，否则面临处决。"

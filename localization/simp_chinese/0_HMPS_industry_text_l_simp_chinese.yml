@@ -1,0 +1,159 @@
+﻿l_simp_chinese:
+
+    #Explosives Industry
+ building_explosives_industry:0 "炸药工业"
+ pmg_explosives_building:0 "$"
+ pmg_ownership_capital_building_explosives:1 "$"
+ pm_privately_owned_building_explosives:1 "$"
+ pm_publicly_traded_building_explosives:1 "$"
+ pm_government_run_building_explosives:1 "$"
+ pm_worker_cooperative_building_explosives:1 "$"
+ pm_leblanc_process_2:1 "$"
+ pm_ammonia-soda_process_2:1 "-soda_process$"
+ pm_vacuum_evaporation_2:1 "$"
+ pm_brine_electrolysis_2:1 "$"
+ 
+    #Artillery Industry
+ building_artillery_industry:0 "火炮工业"
+ pmg_foundries_artillery_industry:0 "火炮"
+ pmg_ownership_capital_building_artillery_industry:1 "$"
+ pm_privately_owned_building_artillery_industry:1 "$"
+ pm_merchant_guilds_building_artillery_industry:1 "$"
+ pm_publicly_traded_building_artillery_industry:1 "$"
+ pm_government_run_building_artillery_industry:1 "$"
+ pm_worker_cooperative_building_artillery_industry:1 "$"
+ pm_cannons_2:1 "$"
+ pm_smoothbores_2:1 "$"
+ pm_breech_loaders_2:1 "$"
+
+    #Vineyard Plantation
+ pmg_train_automation_building_vineyard:0 ""$pmg_train_automation$""
+ 
+    #Rice secondary
+ pm_rice_wine:0 "米酒"
+ 
+    #Power
+ alternators:0 "交流发电机"
+ alternators_desc:0 "使用固定电枢在旋转磁场中，可以产生交流电。"
+ pmg_power_alternator:0 "交流发电机"
+ pm_dc_plant:0 "直流发电"
+ pm_ac_plant:0 "交流发电"
+ bg_power:0 "电力"
+ 
+   #Motor Industries
+ pmg_automobile_production:0 "汽车生产"
+ pm_automobile_production_very_low:0 "极低汽车产量"
+ pm_automobile_production_low:0 "低汽车产量"
+ pm_automobile_production:0 "中等汽车产量"
+ pm_automobile_production_high:0 "高汽车产量"
+ 
+    #Regular & Hardwood Wood
+ building_logging_camp:0 ""伐木营地""
+ building_logging_camp_lens_option:0 ""扩建$building_logging_camp$""
+ 
+ 
+ building_hardwood_forestry:0 "硬木林业"
+ building_hardwood_forestry_lens_option:0 "扩建$"
+ 
+ pmg_base_building_hardwood_forestry:1 "$"
+ pm_simple_hardwood_forestry:0 "简易林业"
+ pm_hardwood_saw_mills:0 "锯木厂"
+ pm_hardwood_electric_saw_mills:0 "电动锯木厂"
+  
+    #hardwood gaming
+ pmg_ownership_capital_building_hardwood_forestry:1 "$"
+ pm_merchant_guilds_building_hardwood_forestry:1 "$"
+ pm_privately_owned_building_hardwood_forestry:1 "$"
+ pm_publicly_traded_building_hardwood_forestry:1 "$"
+ pm_government_run_building_hardwood_forestry:1 "$"
+ pm_worker_cooperative_building_hardwood_forestry:1 "$"
+
+    #Canals
+ bg_minor_canals:0 "运河"
+ building_canal:0 "运河"
+ pmg_canal_level:1 "$"
+ pmg_ownership_capital_building_canals:1 "$"
+ pm_canal_level_1:0 "天然落差"
+ pm_canal_level_2:0 "船闸"
+ pm_canal_level_3:0 "液压闸门"
+ pm_merchant_guilds_building_canals:1 "$"
+ pm_privately_owned_building_canals:1 "$"
+ pm_publicly_traded_building_canals:1 "$"
+ pm_government_run_building_canals:1 "$"
+ pm_worker_cooperative_building_canals:1 "$"
+ 
+    #Guano
+ building_guano_mine:0 "鸟粪石采集场"
+ building_guano_mine_lens_option:0 "扩建$building_guano_mine$"
+ building_guano_mine_throughput_add: "$building_guano_mine$建筑[concept_throughput]"
+ building_guano_mine_throughput_add_desc: "对$building_guano_mine$的投入和产出的加成或惩罚"
+ 
+ pmg_mining_equipment_building_guano_mine:0 "鸟粪石采集设备"
+ pm_picks_and_shovels_building_guano_mine:0 "镐和铲"
+ pm_heavy_machinery_building_guano_mine:0 "重型机械"
+ pmg_train_automation_building_guano_mine:0 "$"
+ pmg_ownership_capital_building_guano_mine:0 "$"
+ pm_merchant_guilds_building_guano_mine:0 "$"
+ pm_privately_owned_building_guano_mine:0 "$"
+ pm_publicly_traded_building_guano_mine:0 "$"
+ pm_state_capitalism_building_guano_mine:0 "$"
+ pm_government_run_building_guano_mine:0 "$"
+ pm_worker_cooperative_building_guano_mine:0 "$"
+ 
+    #Colonial Derricks
+ pm_steam_derricks_colonial:1 "殖民蒸汽动力钻机"
+ pm_combustion_derricks_colonial:1 "殖民内燃机钻机"
+ 
+    #State Capitalism
+ pm_state_captialism:0 "国家资本主义"
+ pm_state_capitalism_building_food_industry:1 "$"
+ pm_state_capitalism_building_textile_mill:1 "$"
+ pm_state_capitalism_building_furniture_manufactory:1 "$"
+ pm_state_capitalism_building_glassworks:1 "$"
+ pm_state_capitalism_building_tooling_workshop:1 "$"
+ pm_state_capitalism_building_paper_mill:1 "$"
+ pm_state_capitalism_industry:1 "$"
+ pm_state_capitalism_building_shipyard:1 "$"
+ pm_state_capitalism_building_military_shipyard:1 "$"
+ pm_state_capitalism_building_arms_industry:1 "$"
+ pm_state_capitalism_building_artillery_foundry:1 "$"
+ pm_state_capitalism_building_coal_mine:1 "$"
+ pm_state_capitalism_building_iron_mine:1 "$"
+ pm_state_capitalism_building_lead_mine:1 "$"
+ pm_state_capitalism_building_sulfur_mine:1 "$"
+ pm_state_capitalism_building_gold_mine:1 "$"
+ pm_state_capitalism_building_logging_camp:1 "$"
+ pm_state_capitalism_building_hardwood_forestry:1 "$"
+ pm_state_capitalism_building_oil_rig:1 "$"
+ 
+ building_group_bg_logging_allowed_collectivization_add: "工人所有$bg_logging$$concept_building$的最低等级"
+ building_group_bg_logging_allowed_collectivization_add_desc: "将归工人所有的$bg_logging$[Concept('concept_building','$concept_buildings$')]的最低数量。"
+   #Millitart conversion
+ pmg_military_conversion_steel:0 "军事转化"
+ pmg_military_conversion_tools:0 "军事转化"
+ pmg_military_conversion_explosives:0 "军事转化"
+ pm_military_conversion_disabled:0 "民用"
+ pm_military_conversion_steel_1:0 "小型军事转化"
+ pm_military_conversion_tools_1:0 "小型军事转化"
+ pm_military_conversion_explosives_1:0 "小型军事转化"
+ pm_military_conversion_steel_2:0 "轻度军事转化"
+ pm_military_conversion_tools_2:0 "轻度军事转化"
+ pm_military_conversion_explosives_2:0 "轻度军事转化"
+ pm_military_conversion_steel_3:0 "中等军事转化"
+ pm_military_conversion_tools_3:0 "中等军事转化"
+ pm_military_conversion_explosives_3:0 "中等军事转化"
+ pm_military_conversion_steel_4:0 "大规模军事转化"
+ pm_military_conversion_tools_4:0 "大规模军事转化"
+ pm_military_conversion_explosives_4:0 "大规模军事转化"
+ 
+ fertilizer_cotton_plantation:0 "施肥棉花种植园"
+ fertilizer_dye_plantation:0 "施肥染料种植园"
+ fertilizer_opium_plantation:0 "施肥鸦片种植园"
+ fertilizer_tea_plantation:0 "施肥茶叶种植园"
+ fertilizer_tobacco_plantation:0 "施肥烟草种植园"
+ fertilizer_sugar_plantation:0 "施肥甘蔗种植园"
+ fertilizer_banana_plantation:0 "施肥香蕉种植园"
+ fertilizer_silk_plantation:0 "施肥丝绸种植园"
+ fertilizer_vineyard:0 "施肥葡萄园"
+
+ pm_electric_lathes:0 "电动车床"

@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+
+ ##################### Warlord China
+
+ notification_warlord_china_explosion_point_remove_name:0 "[SCOPE.GetRootScope.GetCountry.GetName]趋于稳定。"
+ notification_warlord_china_explosion_point_remove_desc:0 "我们对国家娴熟的治理使我们的统治在人民眼中合法化，稳步将国家从崩溃的边缘拉回。"
+ notification_warlord_china_explosion_point_remove_tooltip:1 ""#header $notification_warlord_china_explosion_point_remove_name$#!\n$TOOLTIP_DELIMITER$\n$notification_warlord_china_explosion_point_remove_desc$""
+
+ notification_warlord_china_explosion_point_add_name:0 "[SCOPE.GetRootScope.GetCountry.GetName]动荡加剧。"
+ notification_warlord_china_explosion_point_add_desc:0 "我们对事务的失误处理使我们的统治失去合法性，导致国家一步步接近彻底崩溃。"
+ notification_warlord_china_explosion_point_add_tooltip:1 ""#header $notification_warlord_china_explosion_point_add_name$#!\n$TOOLTIP_DELIMITER$\n$notification_warlord_china_explosion_point_add_desc$""

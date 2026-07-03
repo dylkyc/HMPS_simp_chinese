@@ -1,0 +1,35 @@
+﻿l_simp_chinese:
+ je_sick_man_education_goal:1 ""将你的人民的识字率提升20%。""
+ je_north_german_unification_trigger_desc:0 "已完成德意志民族认同日志条目。"
+ je_german_unification_idea_trigger_desc.t1:0 "尚未决定放弃德意志。"
+ ngf_split_silesia_ownership:0 "如果奥地利拥有整个上西里西亚，他们将不再被豁免"
+ je_meiji_restoration_reason:0 ""#v $JAP$#!的开国掀起了一股席卷时代的浪潮，其来势之汹涌，即便是统治全国的#b 幕府#!亦难以驾驭。[SelectLocalization(SCOPE.sPoliticalMovement('meiji_movement_scope').IsValid, SCOPE.sPoliticalMovement('meiji_movement_scope').GetName, 'movement_meiji_restorationist_name')]的激进分子对入侵的外国势力怒不可遏，要求废黜$RULER_TITLE_SHOGUN$，将大政奉还于#b $RULER_TITLE_EMPEROR$#!，并驱除夷人。另一方面，野心勃勃的诸[SCOPE.gsInterestGroup('daimyo_ig').GetName]也试图利用幕府的一时虚弱，趁机分得一杯羹。\n\n日本若想在此百年未有之大变局中争得一席之地，就必须推行改革、富国强兵，还要解决主权在法理和事实之间分离的矛盾。不管是独掌大权，还是与幕府共治，天皇陛下都必须亲政。\n\n@warning!随着[SelectLocalization(SCOPE.sPoliticalMovement('meiji_movement_scope').IsValid, SCOPE.sPoliticalMovement('meiji_movement_scope').GetName, 'movement_meiji_restorationist_name')]的[Concept('concept_activism', '$concept_activism_short$')]不断增加，尊王派将谋求采取更强硬的手段实现大政奉还。""
+ je_meiji_restoration_goal:0 "以下条件必须累计持续10年；维持高合法性将加快权力巩固："
+
+ indonesia_home_rule_decision:0 "接受印度尼西亚地方自治"
+ indonesia_home_rule_decision_desc:0 "随着民主和平等思想的传播，也许是时候考虑印度尼西亚的地方自治了。"
+ south_africa_home_rule_decision:0 "结束种族隔离"
+ south_africa_home_rule_decision_desc:0 "随着民主和平等思想的传播，也许是时候开始为所有以南非为家的人争取平等的漫长征程了。"
+
+ ## DIVIDE AND Rule
+
+ treaty_name_oman_uk_treaty:0 "英阿卡勒纳马条约"
+ treaty_name_oman_usa_treaty:0 "美阿友好通商条约"
+
+ pm_qualifications_focus:0 "资格培养重点"
+ pm_migration_focus:0 "移民重点"
+ pm_enlistment_focus:0 "征兵重点"
+ pmg_university_specialization:0 "大学专业方向"
+
+ state_trait_hamgyong_mountains:0 "咸镜山脉"
+ state_trait_sierra_madre_oriental:0 "东马德雷山脉"
+ state_trait_mexican_volcanic_axis:0 "墨西哥火山带"
+
+ je_peru_bolivia:1 "秘鲁-玻利维亚邦联"
+ je_peru_bolivia_reason:1 ""玻利维亚对1835年秘鲁内战的干预使秘鲁领土落入了[SCOPE.sCountry('bolivia_scope').GetName]的[SCOPE.sCountry('bolivia_scope').GetRuler.GetPrimaryRoleTitle]的掌控之中。现在，[SCOPE.sCountry('bolivia_scope').GetNameNoFormatting]试图维护这个脆弱的邦联，实现臣民真正的联合。\n\n@information!在进度条达到#variable 100%#!之前迫使其释放[Concept('concept_subject', '$concept_subjects$')]，可以防止#bold 秘鲁‑玻利维亚邦联#!的野心实现。\n\n@warning!在#b $BOL$#!寻求巩固#bold 邦联#!的统治时，邻国对其的攻击性也会逐渐提高。""
+ je_peru_bolivia_goal:1 ""[SCOPE.sCountry('bolivia_scope').GetNameNoFlag]成功维持其[SCOPE.sCulture('south_andean_culture').GetName]和[SCOPE.sCulture('quechua_culture').GetName][Concept('concept_subject', '$concept_subjects$')]，同时保持[concept_legitimacy]#bold 50#!以上，持续10年""
+ je_peru_bolivia_restorer_victory:0 ""#b 复兴者#!胜利条件：\n""
+ je_peru_bolivia_on_restorer_victory:0 ""当#b 复兴者#!胜利时：\n$EFFECT$""
+ je_peru_bolivia_confederation_victory: "实现#b 邦联#!胜利：\n"
+ je_peru_bolivia_on_confederation_victory: "#b 邦联#!胜利时：\n$EFFECT$"
+peru_bolivia_completion_nonbolivia_tt:0 ""秘鲁‑玻利维亚邦联会[Concept('concept_unification', '统一')]为一个[concept_country]""

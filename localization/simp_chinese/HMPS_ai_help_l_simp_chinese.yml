@@ -1,0 +1,7 @@
+﻿l_simp_chinese:
+ rule_HMPS_ai_help:0 "AI辅助"
+  setting_HMPS_ai_help:0 "AI帮助开启"
+  setting_HMPS_ai_help_desc:0 "AI将减少来自合法性和政治运动的激进主义，使其更容易维持稳定和避免叛乱。"
+ setting_HMPS_no_ai_help:0 "AI辅助关闭"
+  setting_HMPS_no_ai_help_desc:0 "AI不会获得来自合法性或政治运动的激进主义减免，使其以与玩家相同的方式进行游戏。"
+ gr_ai_help:0 "AI辅助"

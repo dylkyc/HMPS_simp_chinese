@@ -1,0 +1,131 @@
+﻿INJECT:pm_market_stalls = {
+}
+
+INJECT:pm_market_squares = {
+}
+
+INJECT:pm_covered_markets = {
+}
+
+INJECT:pm_arcades = {
+}
+
+INJECT:pm_gas_streetlights = {
+	unlocking_technologies = {
+		modern_sewerage
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_coal_add = -1
+			goods_output_services_add = -3
+		}
+	}
+}
+
+INJECT:pm_traditional_art = {
+}
+
+INJECT:pm_realist_art = {
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_output_fine_art_add = 1
+		}
+	}
+}
+
+INJECT:pm_photographic_art = {
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_output_fine_art_add = 2
+		}
+	}
+}
+
+INJECT:pm_film_art = {
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_electricity_add = -2 #
+			goods_output_fine_art_add = 5
+		}
+	}
+}
+
+pm_dc_plant = { ### HMPS original PM, do not use REPLACE_OR_CREATE/INJECT
+	texture = "gfx/interface/icons/production_method_icons/direct_current.dds"
+	
+	
+	unlocking_technologies = {
+		electrical_generation
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+		}
+	}
+}
+
+
+pm_ac_plant = { ### HMPS original PM, do not use REPLACE_OR_CREATE/INJECT
+	texture = "gfx/interface/icons/production_method_icons/alternating_current.dds"
+	
+	unlocking_technologies = {
+		alternators
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			goods_input_steel_add = 10
+			goods_output_electricity_add = 60
+		}
+
+		level_scaled = {
+			building_employment_machinists_add = 600
+			building_employment_engineers_add = 400
+		}
+	}
+}
+
+INJECT:pm_early_power_plant = {
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = -20
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 6
+			goods_input_coal_add = -5
+			goods_input_wood_add = -5
+			goods_output_electricity_add = 30
+		}
+	}
+}
+
+INJECT:pm_coal-fired_plant = {
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 9
+			goods_input_coal_add = 10
+			goods_output_electricity_add = 70
+		}
+	}
+}
+
+INJECT:pm_oil-fired_plant = {
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = -15
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 10
+			goods_input_oil_add = 15
+			goods_output_electricity_add = 100
+		}
+	}
+}

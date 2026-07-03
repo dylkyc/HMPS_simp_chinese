@@ -1,0 +1,441 @@
+﻿l_simp_chinese:
+  
+ # Country Names
+ dyn_c_british_united_kingdom:0 "联合王国"
+ dyn_c_british_empire:0 "大英帝国"
+ dyn_c_british_socialist_republic:0 "不列颠社会主义共和国"
+ 
+ dyn_c_carlis_spain_revolt:0 "卡洛斯派西班牙"
+ 
+ dyn_c_french_kingdom:0 "法兰西王国"
+ dyn_c_french_empire:0 "法兰西帝国"
+ dyn_c_french_republic:0 "法兰西共和国"
+ dyn_c_french_state:0 "法兰西国"
+ dyn_c_french_commune:0 ""法兰西公社""
+ 
+ dyn_c_austrian_empire:0 "奥地利帝国"
+ 
+ dyn_c_russian_empire:0 "俄罗斯帝国"
+ dyn_c_russian_republic:0 ""俄罗斯共和国""
+ 
+ dyn_c_spanish_kingdom:0 "西班牙王国"
+ dyn_c_spanish_republic:0 ""西班牙共和国""
+ dyn_c_spanish_state:0 "西班牙国"
+ dyn_c_spanish_commune:0 "西班牙社会主义共和国"
+ 
+ dyn_c_ottoman_caliphate:0 "奥斯曼哈里发国"
+ dyn_c_ottoman_porte:0 "崇高朴特"
+ dyn_c_turkish_socialist_republic:0 "土耳其社会主义共和国"
+ 
+ dyn_c_american_union_state:0 "美国联邦"
+ 
+ dyn_c_brazilian_empire:0 "巴西帝国"
+ 
+ dyn_c_united_baltic_states:0 "波罗的海总督区"
+ dyn_c_united_baltic_states_adj:0 "波罗的"
+ 
+ # Government Names
+ gov_presidential_democracy_unitary:0 "总统制单一共和国"
+ gov_presidential_democracy_federal:0 "总统制联邦共和国"
+ gov_dual_democracy_unitary:0 "半总统制单一共和国"
+ gov_dual_democracy_federal:0 "半总统制联邦共和国"
+ gov_parliamentary_democracy_unitary:0 "议会制单一共和国"
+ gov_parliamentary_democracy_federal:0 "议会制联邦共和国"
+ gov_council_democracy_unitary:0 "单一委员会共和国"
+ gov_council_democracy_federal:0 "联邦委员会共和国"
+ gov_anarchist_commune_unitary:0 "无政府公社"
+ gov_anarchist_commune_federal:0 "公社联邦"
+ gov_technate:0 "财阀统治"
+ 
+ gov_presidential_democracy_unitary_desc:1 "这是一种政府形式，国家由单一制、民主选举的总统统治。"
+ gov_presidential_democracy_federal_desc:1 "这是一种政府形式，国家由联邦制、民主选举的总统统治。"
+ gov_dual_democracy_unitary_desc:1 "这是一种[concept_government]，国家由单一制、民主[Concept('concept_election','$')]的议会和总统统治，由总统任命并批准首相。"
+ gov_dual_democracy_federal_desc:1 "这是一种[concept_government]，国家由联邦制、民主[Concept('concept_election','$')]的议会和总统统治，由总统任命并批准首相。"
+ gov_parliamentary_democracy_unitary_desc:1 "这是一种[concept_government]，国家由单一制、民主[Concept('concept_election','$')]的议会统治。"
+ gov_parliamentary_democracy_federal_desc:1 "这是一种[concept_government]，国家由联邦制、民主[Concept('concept_election','$')]的议会统治。"
+ gov_council_democracy_unitary_desc:1 "这是一种[concept_government]，国家由单一制、民主[Concept('concept_election','$')]的委员会统治。"
+ gov_council_democracy_federal_desc:1 "这是一种[concept_government]，国家由联邦制、民主[Concept('concept_election','$')]的委员会统治。"
+ gov_anarchist_commune_unitary_desc:1 "这是一种[concept_government]，国家没有正式的领导结构，而是由自我组织的公社组成。"
+ gov_anarchist_commune_federal_desc:1 "这是一种[concept_government]，国家没有正式的领导结构，而是由联邦组织的公社组成。"
+ gov_technate_desc:1 "国家由自我选择的精英学者和实业家集团统治。"
+ 
+ gov_presidential_democracy_aristocratic:0 "总统制贵族共和国"
+ gov_presidential_democracy_aristocratic_desc:0 "这是一种[concept_government]，国家由贵族精英统治，他们投票选举[Concept('concept_ruler','$')]。"
+ gov_dual_democracy_aristocratic:0 "半总统制贵族共和国"
+ gov_dual_democracy_aristocratic_desc:0 "这是一种[concept_government]，国家由贵族精英统治，他们投票选举[Concept('concept_election','$')]的[Concept('concept_ruler','$')]和议会来任命首相。"
+ gov_parliamentary_democracy_aristocratic:0 "议会制贵族共和国"
+ gov_parliamentary_democracy_aristocratic_desc:0 "这是一种[concept_government]，国家由贵族精英统治，他们投票选举[Concept('concept_election','$')]的议会。"
+ 
+ gov_dictatorship:0 "独裁统治"
+ gov_dictatorship_desc:1 "国家由行使独裁权力的总统统治。"
+ gov_oligarchy:0 "寡头统治"
+ gov_oligarchy_desc:1 "这是一种[concept_government]，国家由富有而强大的政治阶级统治。"
+ gov_presidential_oligarchy:0 "寡头统治"
+ gov_presidential_oligarchy_desc:1 ""这种[concept_government_type]下，[concept_country]由一个富有而有权势的政治阶级统治。""
+ 
+ gov_constitutional_monarchy:0 "君主立宪制"
+ gov_constitutional_monarchy_desc:1 "法律上的权力归于国王或女王，但实际由总理行使。"
+ gov_semi_constitutional_monarchy:0 "半君主立宪制"
+ gov_semi_constitutional_monarchy_desc:1 "这是一种[concept_government]形式，权力掌握在[Concept('concept_ruler','$')]或[Concept('concept_ruler','$')]手中，但通常由[Concept('concept_ruler','$')]在其同意下行使。"
+ gov_absolute_monarchy:0 "绝对君主制"
+ gov_absolute_monarchy_desc:1 "国家由拥有绝对权力的世袭君主统治。"
+ gov_semi_constitutional_monarchy_GP:0 "半君主立宪制"
+ gov_semi_constitutional_monarchy_GP_desc:1 "这是一种[concept_government]形式，权力掌握在[Concept('concept_ruler','$')]或[Concept('concept_ruler','$')]手中，但通常由[Concept('concept_ruler','$')]在其同意下行使。"
+ gov_absolute_monarchy_GP:0 "绝对君主制"
+ gov_absolute_monarchy_GP_desc:1 "这是一种[concept_government]形式，权力完全掌握在[Concept('concept_ruler','$')]或[Concept('concept_ruler','$')]手中。"
+ 
+ gov_vanguard_communist:0 "先锋共产主义"
+ gov_vanguard_communist_desc:0 "这是一种[concept_government]形式，权力完全掌握在[Concept('concept_ruler','$')]和政治局手中。"
+ gov_anarchy:0 "无政府状态"
+ gov_anarchy_desc:0 "这是一种[concept_government]形式，权力完全掌握在人民手中。"
+ 
+ gov_governorate:0 "总督制"
+ gov_governorate_desc:0 "这是一种[concept_government]形式，权力完全掌握在由宗主国或地方选民任命的[Concept('concept_ruler','$')]手中。"
+ 
+ gov_chiefdom:0 ""酋邦""
+ gov_pol_monarchy_rus:0 "绝对君主制"
+ gov_pol_monarchy_rus_desc:0 "这是一种[concept_government]形式，权力完全掌握在[Concept('concept_ruler','$')]或[Concept('concept_ruler','$')]手中。"
+ 
+ # Government Leaders
+ RULER_TITLE_PREMIER:0 "总理"
+ RULER_TITLE_COUNCILLOR:0 "委员"
+ RULER_TITLE_FEDERAL_COUNCILLOR:0 "联邦委员"
+ RULER_TITLE_FEDERAL_REPRESENTATIVE:0 "联邦代表"
+ 
+ # Law Groups
+ OTHER:0 ""其它""
+  
+ # Government Principles Laws
+ lawgroup_governance_principles:0 "治理原则"
+ lawgroup_governance_principles_desc:0 "国家权力分配的基本原则。"
+  
+ law_republic:0 "共和制"
+ law_republic_desc:0 "国家由选举产生的官员治理，没有世袭君主。"
+  
+ # Executive Structure Laws
+ lawgroup_executive_structure:0 "行政结构"
+ lawgroup_executive_structure_desc:0 "行政权力的组织方式。"
+ 
+ law_independent_executive:0 "独立行政"
+ law_independent_executive_desc:0 "行政权力由独立选举产生的官员行使。"
+ law_dual_executive:0 "双行政制"
+ law_dual_executive_desc:0 "行政权力由总统和议会分享。"
+ law_council_republic:0 "委员会共和国"
+ law_council_republic_desc:0 "国家由选举产生的委员会治理，实行集体领导。"
+ law_single_party_state:0 "一党制国家"
+ law_single_party_state_desc:0 "国家由单一政党统治。"
+ 
+ # Cameralism Laws
+ lawgroup_cameralism:0 "议会结构"
+ lawgroup_cameralism_desc:0 "立法机构的结构和组织。"
+ 
+ law_no_legislature:0 "无立法机构"
+ law_no_legislature_desc:0 "所有立法权由行政机构行使。"
+ law_unicameralism:0 "一院制"
+ law_unicameralism_desc:0 "立法机构由单一议院组成。"
+ law_asymmetric_bicameralism:0 "非对称两院制"
+ law_asymmetric_bicameralism_desc:0 "立法机构由两个议院组成，其中上议院拥有更多权力。"
+ law_symmetric_bicameralism:0 "对称两院制"
+ law_symmetric_bicameralism_desc:0 "立法机构由两个权力平等的议院组成。"
+ 
+ # Power Distribution Laws
+ law_single_party_state:0 "一党制国家"
+ law_single_party_state_desc:0 "国家由单一政党统治。"
+ law_technocracy:0 "技术官僚制"
+ law_technocracy_desc:0 "国家由技术专家治理。"
+ # Citizenship Laws
+ law_language_discrimination:0 "语言歧视"
+ law_language_discrimination_desc:0 "根据语言对公民进行区分。"
+
+ # Religion Laws
+ law_millet_system:0 "米利特制度"
+ law_codified_mecelle:0 "法典化民法"
+ 
+ # Voting System Laws
+ lawgroup_voting_system:0 "投票制度"
+ lawgroup_voting_system_desc:0 "选举中选票的分配方式。"
+ 
+ law_no_voting:0 "无投票权"
+ law_no_voting_desc:0 "公民没有投票权。"
+ law_plurality:0 "相对多数制"
+ law_plurality_desc:0 "获得最多选票的候选人当选。"
+ law_single_transferable_vote:0 "单一可转让投票制"
+ law_single_transferable_vote_desc:0 "一种排名可转移投票制度，在单名或多名选区中，候选人在达到最低票数门槛后当选，每轮计票淘汰最不受欢迎的候选人。"
+ law_jefferson_method:0 "杰斐逊方法"
+ law_jefferson_method_desc:0 "按各州人口比例分配国会席位。"
+ law_pure_proportional:0 "纯粹比例制"
+ law_pure_proportional_desc:0 "各党根据得票比例获得席位。"
+ 
+ # Economic system
+ law_extraction_economy:0 "掠夺经济"
+ law_extraction_economy_desc:0 "经济完全依赖原材料开采。"
+ law_state_capitalism:0 "国家资本主义"
+ law_state_capitalism_desc:0 "国家在关键行业中拥有所有权。"
+ law_industry_banned:0 "工业禁止"
+ law_industry_banned_desc:0 "工业活动受到严格限制。"
+ 
+ # Poll Taxation
+ lawgroup_poll_tax:0 "人头税"
+ lawgroup_poll_tax_desc:0 "按人头征收的税收。"
+ 
+ law_no_poll_taxes:0 "无人头税"
+ law_no_poll_taxes_desc:0 "不按人头征收任何税款。"
+ 
+ # Income Tax
+ lawgroup_income_tax:0 "固定所得税"
+ lawgroup_income_tax_desc:0 "对企业利润征收的税款。"
+ 
+ law_no_income_taxes:0 "无所得税"
+ law_no_income_taxes_desc:0 "不对个人收入征收任何税款。"
+ law_low_income_tax:0 "低所得税"
+ law_low_income_tax_desc:0 "对个人收入征收低税率。"
+ law_moderate_income_tax:0 "中等所得税"
+ law_moderate_income_tax_desc:0 "对个人收入征收中等税率。"
+ law_high_income_tax:0 "高所得税"
+ law_high_income_tax_desc:0 "对个人收入征收高税率。"
+ 
+ # Dividends Tax
+ lawgroup_corporation_tax:0 "股息税"
+ lawgroup_corporation_tax_desc:0 "对企业利润征收的税款。"
+ 
+ law_no_corporation_taxes:0 "无股息税"
+ law_no_corporation_taxes_desc:0 "不对企业利润征税。"
+ law_low_corporation_tax:0 "低股息税"
+ law_low_corporation_tax_desc:0 "对企业利润征收低税率。"
+ law_moderate_corporation_tax:0 "中等股息税"
+ law_moderate_corporation_tax_desc:0 "对企业利润征收中等税率。"
+ law_high_corporation_tax:0 "高股息税"
+ law_high_corporation_tax_desc:0 "对企业利润征收高税率。"
+ 
+ # Consumption Taxes
+ lawgroup_consumption_tax:0 "消费税"
+ lawgroup_consumption_tax_desc:0 "按交易商品价值比例征收的税款。"
+ 
+ law_no_consumption_taxes:0 "无消费税"
+ law_no_consumption_taxes_desc:0 "不对购买商品或服务征收任何税款。"
+ law_low_consumption_tax:0 "低消费税"
+ law_low_consumption_tax_desc:0 "对适用的商品和服务征收低税率。"
+ law_moderate_consumption_tax:0 "中等消费税"
+ law_moderate_consumption_tax_desc:0 "对适用的商品和服务征收中等税率。"
+ law_high_consumption_tax:0 "高消费税"
+ law_high_consumption_tax_desc:0 "对适用的商品和服务征收高税率。"
+ 
+ # Minimum Wage Laws
+ lawgroup_minimum_wage:0 "最低工资"
+ lawgroup_minimum_wage_desc:0 "雇主可以合法支付给员工的最低报酬。"
+ 
+ law_no_minimum_wage:0 "无最低工资"
+ law_no_minimum_wage_desc:0 "没有强制性的最低工资限制。"
+ law_low_minimum_wage:0 "低最低工资"
+ law_low_minimum_wage_desc:0 "雇主必须至少支付低水平的时薪。"
+ law_moderate_minimum_wage:0 "中等最低工资"
+ law_moderate_minimum_wage_desc:0 "有适度的劳动工资最低标准，雇主必须遵守。"
+ law_high_minimum_wage:0 "高最低工资"
+ law_high_minimum_wage_desc:0 "人类劳动的最低强制成本设定得较高。"
+ 
+ # Military Laws
+ law_professional_army:0 "仅志愿兵"
+ law_professional_army_desc:0 "军队仅由训练有素、专业的志愿兵组成。"
+ 
+ # Health Laws
+ law_private_health_insurance:0 "私人医疗"
+ law_public_health_insurance:0 "公共医疗"
+ 
+ # Debt Laws
+ lawgroup_debt:0 "债务责任"
+ lawgroup_debt_desc:0 "债务人合法解除债务的权利。"
+ 
+ law_peonage:0 "劳役偿债"
+ law_peonage_desc:0 "一种雇主强制工人通过劳动偿还债务的制度。"
+ law_debtors_prisons:0 "债务人监狱"
+ law_debtors_prisons_desc:0 "无力偿还债务的人被关进监狱。"
+ law_chartered_mandates:0 "特许授权"
+ law_chartered_mandates_desc:0 "由投资者组成的协会通过皇家特许状（或类似政府文书）注册成立并被授予权利（通常是排他性权利）以从事商业活动。"
+ law_limited_liability:0 "有限责任"
+ law_limited_liability_desc:0 "个人财务责任限于固定金额的法律状态。"
+ 
+ # Workplace Safety group
+ lawgroup_labor_rights:0 "工作场所安全"
+ lawgroup_labor_rights_desc:0 ""工人权利。""
+ 
+ # Work Hours group
+ lawgroup_work_hours:0 "工作时间"
+ lawgroup_work_hours_desc:0 "对每个员工每日最长工作时间的限制。"
+ 
+ law_no_work_hour_limits:0 "无限制工作日"
+ law_no_work_hour_limits_desc:0 "公司和行会对员工每日工作时间没有限制。"
+ law_12_hour_limit:0 "12小时工作日"
+ law_12_hour_limit_desc:0 "禁止雇主强制员工每天工作超过12小时。"
+ law_8_hour_limit:0 "8小时工作日"
+ law_8_hour_limit_desc:0 "禁止雇主强制员工每天工作超过8小时。"
+ 
+ # Environment Reg group
+ lawgroup_environment:0 "环境法规"
+ lawgroup_environment_desc:0 "为保护自然免受生产过度破坏而设立的控制措施。"
+ 
+ law_no_environmental_regulations:0 "无法规"
+ law_no_environmental_regulations_desc:0 "对于从环境中获取或排放到环境中的物质没有控制。"
+ law_limited_environmental_regulations:0 "水质控制"
+ law_limited_environmental_regulations_desc:0 "有一些限制措施防止对环境的过度排放或露天开采。"
+ law_firm_environmental_regulations:0 "生产者责任"
+ law_firm_environmental_regulations_desc:0 "明确且可执行的法规防止环境污染。"
+ 
+ # Colonisation Laws
+ law_colonial_resettlement_desc:1 ""建立殖民地是为了给来自该国已整合地区的定居者提供土地。""
+ law_colonial_exploitation_desc:1 ""建立殖民地就是为了剥削该地区的自然资源和廉价劳工。""
+ 
+ # Institutions
+ institution_army_model:0 "军队组织"
+ institution_army_model_desc:0 "军队的组织和后勤管理。"
+ country_institution_army_model_max_investment_add:0 "最大 $ [concept_institution] 投资"
+ country_institution_army_model_max_investment_add_desc:0 "对 $ [concept_institution] 最大投资水平的加成或减益"
+ institution_colonial_affairs_desc:1 ""这个部门负责海外殖民地财产的管理。""
+ 
+ institution_environmental_regulations:0 "环境保护"
+ institution_environmental_regulations_desc:0 "环境法规的执行。"
+ country_institution_environmental_regulations_max_investment_add:0 "最大 $ [concept_institution] 投资"
+ country_institution_environmental_regulations_max_investment_add_desc:0 "对 $ [concept_institution] 最大投资水平的加成或减益"
+ 
+ country_institution_cost_institution_schools_mult:0 ""[GetInstitutionType('institution_schools').GetName]@bur![concept_bureaucracy]花费""
+ country_institution_cost_institution_schools_mult_desc:0 ""[GetInstitutionType('institution_schools').GetName]机构投入所需的@bur![concept_bureaucracy]花费的增加或减少""
+ country_institution_cost_institution_health_system_mult:0 ""[GetInstitutionType('institution_health_system').GetName]的@bur![concept_bureaucracy]花费""
+ country_institution_cost_institution_health_system_mult_desc:0 ""[GetInstitutionType('institution_health_system').GetName]机构投入所需的@bur![concept_bureaucracy]花费的增加或减少""
+ country_institution_cost_institution_army_model_mult:0 "@bur![Nbsp][concept_bureaucracy] [GetInstitutionType('institution_army_model').GetName]的成本"
+ country_institution_cost_institution_army_model_mult_desc:0 "向政府提供[GetInstitutionType('institution_army_model').GetName]的@bur![Nbsp][concept_bureaucracy]成本的增加或减少"
+ 
+ country_institution_size_change_speed_institution_army_model_mult:0 "[GetInstitutionType('institution_army_model').GetName]的机构规模变化速度"
+ country_institution_size_change_speed_institution_army_model_mult_desc:0 "你改变[GetInstitutionType('institution_army_model').GetName]规模的速度"
+ country_institution_size_change_speed_institution_environmental_regulations_mult:0 "[GetInstitutionType('institution_environmental_regulations').GetName]的机构规模变化速度"
+ country_institution_size_change_speed_institution_environmental_regulations_mult_desc:0 "你改变[GetInstitutionType('institution_environmental_regulations').GetName]规模的速度"
+ 
+ # Ideologies
+ ideology_reactionary:0 "至上主义"
+ ideology_reactionary_desc:0 "#lore 这个群体支持非常有限的政治改革以赋予自己选举权。#!"
+ ideology_cultural_chauvinism:0 "文化沙文主义"
+ ideology_cultural_chauvinism_desc:0 "这个群体坚信其民族文化的优越性，并将抵抗任何将其他文化置于平等地位的企图。"
+ ideology_monarchist:0 "君主主义者"
+ ideology_monarchist_desc:0 "这个群体坚定支持君主和君主制制度。"
+ ideology_russian_military:0 "俄罗斯军方"
+ ideology_russian_military_desc:0 "该集团代表俄罗斯国家的利益，希望进一步融入母国。"
+ ideology_pol_parlamentarism:0 "波兰议会制"
+ ideology_pol_parlamentarism_desc:0 "该集团更希望权力以寡头政治的形式分配，并厌恶独裁思想。"
+ ideology_american_particularism:0 "美国特殊主义"
+ ideology_american_particularism_desc:0 "该集团希望在工作中获得地方自治，摆脱契约奴役的封建条款。然而，奴隶制仍然得到支持。"
+ ideology_american_system:0 "美国体制"
+ ideology_american_system_desc:0 "美国体系是由亨利·克莱倡导的一种意识形态经济计划，旨在通过保护性关税、国家银行和联邦干预基础设施来加强国家。该计划的支持者反对安德鲁·杰克逊，特别是他赋予所有白人男性选举权和打击银行的计划。"
+ ideology_american_intelligentsia:0 "美国知识分子"
+ ideology_american_intelligentsia_desc:0 "该集团支持不干预和贸易保护的经济政策。"
+ ideology_american_republicanism:0 "美国共和主义"
+ ideology_american_republicanism_desc:0 "该集团相信最好的领导者由公众投票选举产生，并支持共和政体。尽管如此，他们更倾向于保持当前的政治现状。"
+ ideology_american_liberalism:0 "美国自由主义"
+ ideology_american_liberalism_desc:0 "该集团将自由和法律平等视为需要维护的重要价值观。"
+ ideology_protectionism:0 "保护主义者"
+ ideology_protectionism_desc:0 "这个群体寻求限制外国进口。"
+ ideology_cultural_inclusiveness:0 "文化包容"
+ ideology_cultural_inclusiveness_desc:0 "这个群体重视辛勤工作，不论出身。"
+ ideology_civic_religion:0 "公民宗教"
+ ideology_civic_religion_desc:0 "该集团视宪法为神圣——即使是最反动的分子也不敢更改它。"
+ ideology_southern_economy:0 "南方经济"
+ ideology_southern_economy_desc:0 "该集团视自由贸易和奴隶制为必需品，并将激烈地捍卫和为之战斗。"
+ ideology_southern_patriarchy:0 "南方父权制"
+ ideology_southern_patriarchy_desc:0 "该集团认为男性应拥有政治权威，女性应服从父权和夫权，国家应有官方宗教。"
+ ideology_laissez_faire:0 "寻租者"
+ ideology_laissez_faire_desc:0 "政府的权力应用于确保稳定的商业并促进财富积累。"
+ ideology_anti_migration:0 "反移民"
+ ideology_anti_migration_desc:0 "这个群体视无限制移民为其劳动力价值的威胁。"
+ ideology_christian_democrat:0 "基督教民主派"
+ ideology_christian_democrat_desc:0 "这个群体坚定信仰基督教价值观并反对专制政府形式。"
+ ideology_american_meritocracy:0 "美国精英政治"
+ ideology_american_meritocracy_desc:0 "#lore 该集团相信成功是靠努力获得的，那些取得成功的人应当享有随之而来的责任和财富。#!"
+ ideology_local_elites: "地方精英"
+ ideology_local_elites_desc:0 "殖民政府通过地方精英的地方统治进行治理，从有影响力的地方长官和部族领袖，到王公和佩什瓦。他们的地方自治赋予他们对其领地的巨大影响力。"
+ 
+ # Custom IG names
+ ig_towarzystwo_rolnicze:0 "农业协会"
+ ig_german_aristocracy:0 "德意志贵族"
+ ig_local_elites:0 "地方精英"
+ ig_eight_banners:0 "八旗"
+ ig_eight_banners_desc:0 "八旗是后金和清朝时期中国的行政和军事编制，所有满族家庭都被编入其中。在战争中，八旗作为军队运作，但旗制也是整个满族社会的基本组织框架。"
+ ig_new_army:0 "新军"
+ ig_new_army_desc:0 "新军，全称新建陆军，是19世纪末清朝时期组建的现代化陆军。它被设想为一支按照西方标准进行正规、专业、全面训练和装备的常备军，并配有预备役。"
+ 
+ # Ideology Attraction Reasons
+ IG_HAS_RIVAL:0 "竞争对手数量"
+ IG_EMPLOYED_MIC:0 "军工产业就业"
+ IG_IS_MARGINALIZED:0 "被边缘化的利益集团"
+ IG_COUNCIL_REPUBLIC:0 "法律：委员会共和国"
+ ACADEMIC_EMPLOYMENT:0 "学术界就业"
+ CULTURAL_EXCLUSION:0 "法律：文化排斥"
+ MULTICULTURALISM:0 "法律：多元文化主义"
+ SOL_25_30:0 "生活水平在25到30之间"
+ SOL_30_35:0 "生活水平在30到35之间"
+ SOL_35_40:0 "生活水平在35到40之间"
+ SOL_40_45:0 "生活水平在40到45之间"
+ SOL_45_50:0 "生活水平在45到50之间"
+ SOL_50_100:0 "生活水平在50到100之间"
+ SOL_0_5:0 "生活水平在0到5之间"
+ SOL_5_10:0 "生活水平在5到10之间"
+ SOL_10_15:0 "生活水平在10到15之间"
+ SOL_15_20:0 "生活水平在15到20之间"
+ SOL_20_25:0 "生活水平在20到25之间"
+ CONSCRIPTED:0 "被征召"
+ NO_HEALTH_SYSTEM:0 "法律：无医疗体系"
+ SERFDOM_BANNED:0 "法律：禁止农奴制"
+ CHILD_LABOR_ALLOWED:0 "法律：允许童工"
+ NO_SOCIAL_SECURITY:0 "法律：无社会保障"
+ PLANTATION_EMPLOYMENT:0 "种植园就业"
+ RESOURCE_POP:0 "资源产业就业"
+ SMALL_URBAN_CENTER:0 "小于5的城市中心"
+ NO_URBAN_CENTER:0 "无城市中心"
+ NO_SOCIALISM:0 "#v $#! [concept_technology] 尚未解锁"
+ 
+ #DRS temp loc spot - move to misc file later
+ doctrine_of_lapse_subj_tt:0 "是印度次大陆上的一个附属国"
+ perm_prestige_mod:0 "国家成就"
+ state_of_war_pl:0 "波兰抵抗"
+ coastal_capital:0 "沿海首都"
+ near_coastal_capital:0 "近沿海首都"
+ russia_lit_tracka:0 "教育水平"
+ junker_victory:0 "容克胜利"
+ constitutional_crisis:0 "宪政危机"
+ decembrist_suppression_failure:0 "十二月党人存续"
+ decembrist_suppression_success:0 "十二月党人被镇压"
+ southern_planter_victory:0 "南方种植园主胜利"
+ 
+ #parties
+ from_graduated_taxation:0 ""累进税法""
+ from_no_graduated_taxation:0 ""支持累进税制法律""
+ from_no_consumption_tax:0 ""支持消费税制法律""
+ from_no_proportional_or_per_capita_tax:0 ""支持比例税制或人均税制法律""
+ from_capitalists_tax:0 ""累进税制法律""
+ 
+ #Education laws
+ law_no_schools:0 "无学校"
+ law_no_schools_desc:0 ""教育是父母的责任。只有最悠闲的公民才能学习阅读和写作。""
+ law_religious_schools:0 "宗教学校"
+ law_religious_schools_desc:0 ""让教会负责国家教育确保了忠诚和道德健康的人民。""
+ law_private_schools:0 "私立学校"
+ law_private_schools_desc:0 ""学校教育最好留给私人利益集团，他们可以保证教育的自由选择。""
+ law_public_schools:0 "公立学校"
+ law_public_schools_desc:0 ""学校教育是国家的责任，应该标准化且人人平等。""
+ 
+ #Decrees
+ decree_political_repression:0 "民族主义镇压"
+ decree_political_repression_desc:0 "一系列削弱和破坏激进民族主义势力的微妙策略。"
+ decree_additional_taxes:0 "扩大征税"
+ decree_additional_taxes_desc:0 "较高税率已直接或间接针对该州。"
+ decree_host_scope:0 "GM范围"
+ decree_host_scope_desc:0 "此法令向GM决策指示生效地点（例如在哪里建造大学）。"
+ 
+ #Custom Law Tooltips
+ capital_in_americas_tt:0 "[SCOPE.GetRootScope.GetCountry.GetCapital.GetCityHubName]必须位于#bold 美洲、大洋洲或南非#!"
+ no_unincorp_states_tt:1 "所有拥有的州必须是[Concept('concept_incorporated_state', '$')]"
+ 
+ #IG Traits
+ ig_trait_treaty_relations:0 "条约关系"
+ ig_trait_treaty_relations_desc:0 "我们与租界当局的关系使我们能够继续扩大原材料出口，并与海外伙伴建立出口协议。"
+ ig_trait_self_strengthening_industry:0 "自强"
+ ig_trait_self_strengthening_industry_desc:0 "我们的智慧和知识必然优于周围的国家。因此，我们需要向国外学习的只有一件事：高效的钢铁制造和创造性发明。"
+ ig_trait_culture_of_militarism:0 "普鲁士军国主义"
+ ig_trait_culture_of_militarism_desc:0 "军队是我们伟大国家的支柱，确保我们社会和治理中的纪律、秩序和力量。通过强大统一的军队，我们保卫边境、维护传统，并确立我们作为伟大国家领导者的应有地位。"
+ institution_schools_desc:0 ""国家的教育系统，确保国民识字率的增长。""

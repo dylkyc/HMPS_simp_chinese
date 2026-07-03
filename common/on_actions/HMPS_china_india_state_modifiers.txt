@@ -1,0 +1,179 @@
+﻿on_state_owner_change = {
+	on_actions = {
+		HMPS_check_china_state_nerf = yes
+		HMPS_check_india_state_nerf = yes
+	}
+}
+on_monthly_pulse_state = {
+	on_actions = {
+		HMPS_check_china_state_nerf = yes
+		HMPS_check_india_state_nerf = yes
+	}
+}
+on_monthly_pulse_country = {
+	on_actions = {
+		#HMPS_check_china_country_nerf = yes #handled via JE now
+	}
+}
+
+
+HMPS_check_india_state_nerf = {
+	effect = {
+		owner = {
+			save_scope_as = state_owner
+		}
+		if = {
+			limit = {
+				is_in_geographic_region = geographic_region_HMPS_india_nerf
+			}
+			if = {
+				limit = {
+					NOT = { has_modifier = india_state_nerf }
+					NOT = { is_treaty_port = yes }
+				}
+				add_modifier = india_state_nerf
+			}
+			else_if = {
+				limit = {
+					has_modifier = india_state_nerf
+					is_treaty_port = yes
+				}
+				remove_modifier = india_state_nerf
+			}
+			#if = {
+			#	limit = {
+			#		OR = {
+			#			is_treaty_port = yes
+			#			AND = {
+			#				is_homeland_of_country_cultures = owner
+			#				NOT = { owner = { any_primary_culture = { has_discrimination_trait_group = heritage_group_south_asian } } }
+			#			}
+			#			AND = {
+			#				owner = {
+			#					top_overlord = {
+			#						any_primary_culture = {
+			#							has_discrimination_trait_group = heritage_group_south_asian
+			#						}
+			#					}
+			#				}
+			#				owner = {
+			#					any_primary_culture = {
+			#						has_discrimination_trait_group = heritage_group_south_asian
+			#					}
+			#				}
+			#			}
+			#		}
+			#	}
+			#	if = {
+			#		limit = {
+			#			has_modifier = india_state_nerf
+			#		}
+			#		remove_modifier = india_state_nerf
+			#	}
+			#}
+			#else_if = {
+			#	limit = {
+			#		NOT = { has_modifier = india_state_nerf }
+			#	}
+			#	add_modifier = india_state_nerf
+			#}
+		}
+	}
+}
+HMPS_check_china_state_nerf = {
+	effect = {
+		owner = {
+			save_scope_as = new_owner
+		}
+		if = {
+			limit = {
+				is_in_geographic_region = geographic_region_HMPS_china_nerf
+			}
+			if = {
+				limit = {
+					NOT = { has_modifier = china_state_nerf }
+					NOT = { is_treaty_port = yes }
+				}
+				add_modifier = china_state_nerf
+			}
+			else_if = {
+				limit = {
+					has_modifier = china_state_nerf
+					is_treaty_port = yes
+				}
+				remove_modifier = china_state_nerf
+			}
+	#		if = {
+	#			limit = {
+	#				NOT = { has_modifier = china_state }
+	#			}
+	#			add_modifier = china_state
+	#		}
+	#		if = {
+	#			limit = {
+	#				OR = {
+	#					is_treaty_port = yes
+	#					AND = {
+	#						is_homeland_of_country_cultures = owner
+	#						NOT = { owner = { any_primary_culture = { cu:han = this } } }
+	#					}
+	#					AND = {
+	#						owner = {
+	#							top_overlord = {
+	#								OR = {
+	#									country_has_primary_culture = cu:han
+	#									country_has_primary_culture = cu:manchu
+	#								}
+	#							}
+	#						}
+	#						owner = {
+	#							OR = {
+	#								country_has_primary_culture = cu:han
+	#								country_has_primary_culture = cu:manchu
+	#							}
+	#						}
+	#					}
+	#				}
+	#			}
+	#			if = {
+	#				limit = {
+	#					has_modifier = china_state_nerf
+	#				}
+	#				remove_modifier = china_state_nerf
+	#			}
+	#		}
+	#		else_if = {
+	#			limit = {
+	#				NOT = { has_modifier = china_state_nerf }
+	#			}
+	#			add_modifier = china_state_nerf
+	#		}
+		}
+	}
+}
+HMPS_check_china_country_nerf = {
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_modifier = china_country_nerf }
+				OR = {
+					any_primary_culture = { cu:han = this }
+					any_primary_culture = { cu:manchu = this }
+				}
+			}
+			add_modifier = china_country_nerf 
+		}
+		else_if = {
+			limit = {
+				has_modifier = china_country_nerf
+				NOT = {
+					OR = {
+						any_primary_culture = { cu:han = this }
+						any_primary_culture = { cu:manchu = this }
+					}
+				}
+			}
+			remove_modifier = china_country_nerf 
+		}
+	}
+}

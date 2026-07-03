@@ -1,0 +1,18 @@
+﻿l_simp_chinese:
+
+ marriage_target_tt:0 "尚未成为联姻目标"
+
+ revolution_disbanded:0 "革命已解散"
+
+ state_atheism_conversion_tt:1 ""你[Concept('concept_incorporated_state', '$concept_incorporated_states$')]10%的[Concept('concept_pop', '$concept_pops$')]成为无神论者""
+
+ boost_war_support_button:0 "解锁战时"提升战争支持度"决策，延长战争但导致国内动荡。"
+ boost_war_support_button_2:0 "降低"提升战争支持度"决策成本，允许多次使用。"
+
+ levy_war_taxes_button:0 "解锁战时"征收战争税"决策，允许国家暂时增加税收。"
+
+ expand_conscription_button:0 "解锁大战时"扩大征兵"决策，以政治代价将军队法律升至下一等级。"
+
+
+ # Paradox Fix
+ HUB_NAME_STATE_NORTHERN_BALUCHISTAN_wood:0 "伊斯卡纳克"

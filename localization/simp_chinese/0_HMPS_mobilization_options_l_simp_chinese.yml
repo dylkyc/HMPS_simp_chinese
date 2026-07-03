@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+ mobilization_option_basic_supplies: "基本补给"
+ mobilization_option_basic_supplies_desc:0 ""士兵在战场上生存所需的最低限度补给。""
+ mobilization_option_basic_supplies_can_be_turned_off_tt:0 ""$mobilization_option_basic_supplies$强制勾选，总是激活""
+ mobilization_option_it_hurts_morale_when_you_remove_supplies_while_in_combat_tt: "当从已[Concept('concept_mobilize_army','$concept_mobilize_army_mobilized$')]的[concept_army]中移除时，每个[Concept('concept_unit','$concept_unit_possessive$')]的当前[concept_morale]减少 #v 25%#!"
+ mobilization_option_it_hurts_morale_when_you_remove_supplies_while_in_combat_tt2: "当从已[Concept('concept_mobilize_army','$concept_mobilize_army_mobilized$')]的[concept_army]中移除时，每个[Concept('concept_unit','$concept_unit_possessive$')]的当前[concept_morale]减少 #v 10%#!"
+ mobilization_option_it_hurts_morale_when_you_force_people_to_march_faster_while_in_combat_tt: "当对已[Concept('concept_mobilize_army','$concept_mobilize_army_mobilized$')]的[concept_army]施加强行军时，每个[Concept('concept_unit','$concept_unit_possessive$')]的当前[concept_morale]减少 #v 20%#!"
+ mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt: "开启或关闭时，当前[concept_army]的[concept_organization]减少 #v 10%#!"
+ mobilization_option_it_hurts_organization_to_add_medic_support_tt: "开启时，当前[concept_army]的[concept_organization]减少 #v 10%#!"
+ mobilization_option_it_hurts_morale_and_organization_when_you_remove_medic_support_tt: "当从已[Concept('concept_mobilize_army','$concept_mobilize_army_mobilized$')]的[concept_army]中移除时，每个[Concept('concept_unit','$concept_unit_possessive$')]的当前[concept_morale]减少 #v 25%#!，当前[concept_army]的[concept_organization]减少 #v 10%#!"

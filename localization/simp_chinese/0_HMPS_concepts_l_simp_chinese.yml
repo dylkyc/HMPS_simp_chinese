@@ -1,0 +1,22 @@
+﻿l_simp_chinese:
+ 
+ concept_literacy:0 "教育水平"
+ concept_literate:0 "受过教育"
+ concept_literacy_desc:2 "一个[concept_pop]的教育水平。某些[Concept('concept_profession', '$concept_professions$')]对其$concept_literacy$要求高于其他职业，限制了$concept_pops$转入其他$concept_professions$所需的[concept_pop_qualifications]，除非他们的$concept_literacy$足够高。你可以投资于[SelectLocalization(GetPlayer.IsValid,'concept_literacy_desc_added','Education')]，逐步提高$concept_population$的$concept_literacy$。"
+
+ REPUDIATE_OBLIGATION_EFFECTS:0 "- 与被我们背弃[concept_obligation]的[concept_country]的[concept_relations]大幅降低\n- 与我们欠有[concept_obligation]的所有其他国家的[concept_relations]降低\n- 减少[concept_prestige]和[concept_influence]，增加[concept_budget_interest]支出，降低[concept_infamy]衰减，持续 #v 10#! 年。在此期间其他[Concept('concept_country','$concept_countries$')]将认为我们欠的[Concept('concept_obligation', '$concept_obligations$')]价值极低"
+ 
+ DIPLOMATIC_ACCEPTANCE_WAR_ALLY:0 "战时盟友"
+ 
+ POP_POLLUTED_STATE: "生活在高[concept_pollution_impact]的[Concept('concept_state', '$concept_states$')]中的[Concept('concept_pop', '$concept_pops$')]"
+ POP_LOW_SOL: "生活在[concept_expected_sol]较高的[Concept('concept_state', '$concept_states$')]中的[Concept('concept_pop', '$concept_pops$')]"
+ 
+ concept_secondary_cultures:0 "次级文化"
+ concept_secondary_culture:0 "次级文化"
+ concept_secondary_culture_desc:4 "一个[concept_culture]或$concept_cultures$，[Concept('concept_country','$concept_country_nation_state$')]与之有部分关联，并以比正常高一级的接受度对待之。"
+ concept_secondary_cultures_desc:4 "一个[concept_culture]或$concept_cultures$，[Concept('concept_country','$concept_country_nation_state$')]与之有部分关联，并以比正常高一级的接受度对待之。"
+ 
+ concept_stigmatised_cultures:0 "污名化文化"
+ concept_stigmatised_culture:0 "污名化文化"
+ concept_stigmatised_culture_desc:4 "一个[concept_culture]或$concept_cultures$，[Concept('concept_country','$concept_country_nation_state$')]对其特别歧视，并以比正常低一级的接受度对待之。"
+ concept_stigmatised_cultures_desc:4 "一个[concept_culture]或$concept_cultures$，[Concept('concept_country','$concept_country_nation_state$')]对其特别歧视，并以比正常低一级的接受度对待之。"

@@ -1,0 +1,23 @@
+﻿l_simp_chinese:
+ #Intelligentsia
+ ite_ig_trait_imperial_examinations: "科举制度"
+ite_ig_trait_imperial_examinations_desc:0 "我们可以确保国家服务中有源源不断的有前途的招募对象，每个人都接受适当的语言和文学传统教育。"
+
+ #Landowners
+ ite_ig_trait_junzi: "君子"
+ite_ig_trait_junzi_desc:0 "通过我们高尚的行为，我们树立了他人都将遵循的标准。"
+ite_ig_trait_scholar_bureaucrats:0 "士大夫"
+ite_ig_trait_scholar_bureaucrats_desc:0 "我们被委托监督国家的日常事务，我们打算在指定的任务中表现出色。"
+ ite_ig_trait_palace_intrigue: "宫廷阴谋"
+ite_ig_trait_palace_intrigue_desc:0 "内廷的指令在我们中间引起了巨大的动荡和偏执。政府机制提供了许多成熟的机会来策划和提升我们的地位。"
+
+ #Devout
+ ite_ig_trait_mandate_of_heaven: "天命"
+ite_ig_trait_mandate_of_heaven_desc:0 "没有比天命更坚实的政府支持了。我们统治者的伟大美德向所有人表明他们牢牢掌握着天命。"
+ ite_ig_trait_meritocracy: "任人唯贤"
+ite_ig_trait_meritocracy_desc:0 "那些学习、工作并体现儒家美德的人将在今生得到回报。修身即是对中央之国的修养。"
+ite_ig_trait_right_of_rebellion:0 "起义权"
+ite_ig_trait_right_of_rebellion_desc:0 "当政府似乎正在失去天命时，寻求合适的替代者是自然且正义的。"
+
+ ite_ig_trait_civil_clergy: "世俗神职人员"
+ite_ig_trait_civil_clergy_desc:0 "没有比服务公共福祉的神职人员更牢固的信仰与国家之间的纽带。他们的慈善和指导工作使他们成为公共生活的支柱。"

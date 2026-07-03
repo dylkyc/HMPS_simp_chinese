@@ -1,0 +1,31 @@
+﻿on_monthly_pulse_state = {
+	on_actions = {
+		HMPS_handle_diseconomies_of_scale
+	}
+}
+
+HMPS_handle_diseconomies_of_scale = {
+	effect = {
+		if = {
+			limit = {
+				has_modifier = modifier_hmps_diseconomies_of_scale
+			}
+			remove_modifier = modifier_hmps_diseconomies_of_scale
+		}
+		add_modifier = {
+			name = modifier_hmps_diseconomies_of_scale
+			multiplier = {
+				add = total_urbanization
+				divide = 100
+				multiply = modifier:state_diseconomies_of_scale_per_hundred_urbanization_add
+				multiply = {
+					add = 1
+					add = modifier:state_diseconomies_of_scale_per_hundred_urbanization_mult
+				}
+				max = modifier:state_diseconomies_of_scale_max_add
+				min = 0 #To stop ppl getting positive construction efficency if we ever add more ways to reduce it
+			}
+			days = -1
+		}
+	}
+}

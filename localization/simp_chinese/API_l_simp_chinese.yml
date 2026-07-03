@@ -1,0 +1,45 @@
+﻿l_simp_chinese:
+    # Modifiers
+    api_granted_leadership: "已使用权威授予领导权"
+    api_granted_command: "已使用权威授予任命"
+    api_exiled_agitator: "已使用权威流放鼓动者"
+    api_invited_agitator: "已使用权威邀请鼓动者"
+    api_authority_cost: "已使用权威"
+    
+    api_bolstering_career: "正在扶持人物生涯"
+    api_suppressing_career: "正在压制人物生涯"
+    api_bolstered_career: "生涯已获扶持"
+    api_suppressed_career: "生涯已被压制"
+    
+    # Modifier Types
+    country_api_authority_add: "倍率计算后的$country_authority_add$"
+    country_api_authority_add_desc:0 "权威加成描述"
+    api_authority_desc_ext: "此处显示的值不直接应用于@aut![Nbsp][concept_authority]，而是用于计算#bold $api_authority_cost$#!修正的值。"
+    
+    # Character Interactions
+    api_bolster_character: "扶持生涯"
+    api_unbolster_character: "停止扶持"
+    api_suppress_character: "压制生涯"
+    api_unsuppress_character: "停止压制"
+    
+    # Tooltips
+    api_tt_character_not_bolstered: "[Character.GetCustom('GetUniversalFullName')]的生涯未受扶持"
+    api_tt_character_not_suppressed: "[Character.GetCustom('GetUniversalFullName')]的生涯未受压制"
+    
+    api_tt_character_bolstered: "[Character.GetCustom('GetUniversalFullName')]每周获得 #p 0.25#! [concept_popularity]"
+    api_tt_country_bolster_character: "消耗： #v 50#! $country_authority_add$"
+    
+    api_tt_character_unbolstered: "[Character.GetCustom('GetUniversalFullName')] #n 不再获得#! #v 0.25#! 每周[concept_popularity]"
+    api_tt_country_unbolster_character: "返还： #v 50#! $country_authority_add$"
+    
+    api_tt_character_suppressed: "[Character.GetCustom('GetUniversalFullName')]每周失去 #n 0.25#! [concept_popularity]"
+    api_tt_country_suppress_character:0 "压制角色工具提示"
+    
+    api_tt_character_unsuppressed: "[Character.GetCustom('GetUniversalFullName')] #p 不再失去#! #v 0.25#! 每周[concept_popularity]"
+    api_tt_country_unsuppress_character:0 "取消压制角色工具提示"
+    
+    api_tt_not_at_bolster_cap:0 "尚未达到扶持上限"
+    api_tt_not_at_suppress_cap:0 "尚未达到压制上限"
+    
+    api_tt_bolster_autostop:0 "此操作将在角色获得50点人气后自动取消"
+    api_tt_suppress_autostop:0 "此操作将在角色被压制50点人气后自动取消"

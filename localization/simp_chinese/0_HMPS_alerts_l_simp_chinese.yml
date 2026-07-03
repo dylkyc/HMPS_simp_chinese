@@ -1,0 +1,14 @@
+﻿l_simp_chinese:
+
+ alert_low_leverage_alert_name: "低影响力集团成员"
+ alert_low_leverage_alert_desc:0 "您或集团成员的影响力较低（低于50）。AI国家将在影响力降至0时离开集团。"
+ alert_low_leverage_alert_hint:0 "集团领袖可以通过条约、外交盈余、集团指令、凝聚力和经济依赖来增加影响力产生。集团成员可以通过贸易、言论自由、经济和移民相关法律来降低影响力抵抗。"
+ alert_low_leverage_alert_action: "权力集团面板"
+ low_leverage_alert_setting_name: "低影响力"
+
+ alert_gm_low_leverage_alert_name:0 "GM低影响力集团成员"
+ alert_gm_low_leverage_alert_desc:0 "存在一个非附庸集团成员影响力低于20的玩家。AI将在影响力为0时离开集团。"
+ alert_gm_low_leverage_alert_action: "权力集团面板"
+ alert_gm_low_leverage_alert_action:0 "权力集团面板"
+ alert_gm_low_leverage_alert_hint:0 "集团领袖可增加影响力。成员可降低影响力抵抗。"
+ gm_low_leverage_alert_setting_name:0 "GM低影响力"

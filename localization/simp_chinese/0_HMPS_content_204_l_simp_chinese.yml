@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ je_agricultural_development: "咖啡之河"
+  je_agricultural_development_reason:0 ""[ROOT.GetCountry.GetName]拥有大量肥沃的农田，气候适合种植高利润的经济作物。这提供了一个很好的机会来让国家富起来，并推动[ROOT.GetCountry.GetAdjectiveNoFormatting]产品在世界范围内的知名度。""
+  je_agricultural_development_goal:0 ""将[SCOPE.sCountry('brazil_scope').GetCapital.GetMarket.GetName]内$coffee$的[concept_buy_orders]提高150%""
+ je_agricultural_development_goal_dummy: "将巴西市场中$coffee$的[concept_buy_orders]数量提高100%"

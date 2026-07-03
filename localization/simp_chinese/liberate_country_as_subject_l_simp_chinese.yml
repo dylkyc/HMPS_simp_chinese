@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+    release_as_puppet_events.2t:0 "[SCOPE.sCountry('target_vassal').GetName]的命运"
+    release_as_puppet_events.2desc:0 "[SCOPE.sCountry('target_vassal').GetNameNoFormatting]目前被我们占领。问题在于他们的政府将如何建立。"
+    release_as_puppet_events.2f:0 ""看似慷慨，实则常是掩饰的野心——鄙视小利益以获取大利益。"
+- 弗朗索瓦·德·拉罗什富科公爵，《箴言集》1665年"
+    release_as_puppet_events.2a:0 "我们将果断控制其内政。"
+    release_as_puppet_events.2b:0 "我们将监督他们。"
+    release_as_puppet_events.2c:0 "我们将保护他们。"
+    release_as_puppet_events.2g:0 "他们将进入我们的势力范围。"
+    release_as_puppet_events.2d:0 "他们将获得自由。"
+ release_as_puppet_events.2dlabel:0 "[SCOPE.sCountry('target_vassal').GetName]保持独立"
+ release_as_puppet_events.2blabel:0 "[SCOPE.sCountry('target_vassal').GetName]成为我们的[concept_vassal]"
+ release_as_puppet_events.2glabel:0 "[SCOPE.sCountry('target_vassal').GetName]加入[SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetName]"

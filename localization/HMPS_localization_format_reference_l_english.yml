@@ -1,0 +1,266 @@
+l_english:
+
+ # ============================================================================
+ # HMPS / Victoria 3 Localization YAML Format Reference
+ # ============================================================================
+ # This file demonstrates all common patterns found in localization YAML files.
+ # Place new .yml files inside localization/english/ (or the target language folder).
+ # File naming convention: 0_MODNAME_category_l_english.yml
+ # ============================================================================
+
+ # ----------------------------------------------------------------------------
+ # 1. BASIC KEY-VALUE PAIRS
+ # ----------------------------------------------------------------------------
+ # Format: key:version "value"
+ # The :0, :1, :4 after the key is a version marker. Most entries use :0.
+ # Values must be wrapped in double quotes.
+
+ basic_example:0 "This is a basic localized string."
+ basic_example_no_version: "This entry omits the version number."
+
+ # ----------------------------------------------------------------------------
+ # 2. EVENT LOCALIZATION
+ # ----------------------------------------------------------------------------
+ # Events use suffixes to distinguish their parts:
+ #   .t = Title (事件标题)
+ #   .d = Description (事件描述)
+ #   .f = Flavor / background text (事件背景/ flavor 文本)
+ #   .a, .b, .c... = Event options (事件选项)
+ #   .a.t, .b.t... = Tooltip for that option (选项的工具提示)
+
+ example_evt.1.t:0 "The Sample Event"
+ example_evt.1.d:0 "Something important has happened in our nation. We must decide how to respond."
+ example_evt.1.f:0 ""History is written by the victors." ~ Winston Churchill"
+ example_evt.1.a:0 "We shall seize this opportunity!"
+ example_evt.1.a.t:0 "Gain the #bold Opportunist#! modifier for 5 years."
+ example_evt.1.b:0 "Let us proceed with caution."
+ example_evt.1.b.t:0 "Lose 5 #red Prestige#! but gain 10 #green Legitimacy#!."
+
+ # ----------------------------------------------------------------------------
+ # 3. JOURNAL ENTRY (JE) LOCALIZATION
+ # ----------------------------------------------------------------------------
+ # Journal Entries use these suffixes:
+ #   (no suffix)   = JE display name
+ #   _reason       = Explanation shown in the JE panel
+ #   _goal         = Completion condition text
+ #   _status       = Extra status text (can include progress bar info)
+ #   .t1, .t2...   = Tooltip conditions
+
+ je_example_reform:0 "Reform the Bureaucracy"
+ je_example_reform_reason:0 "Our administration is a patchwork of archaic laws. We must modernize it."
+ je_example_reform_goal:0 "The following must be true for 5 total years:"
+ je_example_reform_status:0 "The #yellow #BOLD Bureaucrats#!#! will provide flat #white #BOLD progress#!#! per month."
+ je_example_reform.t1:0 "The #variable Reform#! [concept_journal_entry] completes"
+
+ # ----------------------------------------------------------------------------
+ # 4. MODIFIER LOCALIZATION
+ # ----------------------------------------------------------------------------
+ # Modifiers have a name and optionally a description:
+ #   (no suffix)       = Modifier name
+ #   _desc             = Modifier description (shown on hover)
+
+ modifier_example_buff:0 "Blessing of Prosperity"
+ modifier_example_buff_desc:0 "A bonus to both input and output of all farms."
+ modifier_example_nerf:0 "Curse of Famine"
+ modifier_example_nerf_desc:0 "A penalty to [concept_throughput] in all agricultural buildings."
+
+ # ----------------------------------------------------------------------------
+ # 5. DECISION LOCALIZATION
+ # ----------------------------------------------------------------------------
+ # Decisions follow the same pattern as modifiers:
+ #   (no suffix)       = Decision button text
+ #   _desc             = Decision description (shown on hover)
+ #   .t, .t1, .t2...   = Additional tooltips for requirements or effects
+
+ decision_example_reform:0 "Enact Sweeping Reforms"
+ decision_example_reform_desc:0 "This will modernize our nation's institutions at a cost."
+ decision_example_reform.t:0 "Requires at least 50 #yellow Bureaucracy#!"
+
+ # ----------------------------------------------------------------------------
+ # 6. COUNTRY & DYNAMIC COUNTRY NAMES
+ # ----------------------------------------------------------------------------
+ # Static country tags use the tag directly:
+ #   TAG:0 "Country Name"
+ #   TAG_ADJ:0 "Adjective"
+ # Dynamic countries (formed via script) use dyn_c_ prefix:
+ #   dyn_c_key:0 "Dynamic Country Name"
+ #   dyn_c_key_ADJ:0 "Dynamic Adjective"
+
+ EXM:0 "Exampleland"
+ EXM_ADJ:0 "Examplelander"
+ dyn_c_example_federation:0 "Federated Exampleland"
+ dyn_c_example_federation_ADJ:0 "Federated"
+
+ # ----------------------------------------------------------------------------
+ # 7. CONCEPT LOCALIZATION
+ # ----------------------------------------------------------------------------
+ # Custom game concepts use these suffixes:
+ #   (no suffix)       = Concept name
+ #   _desc:4           = Concept description (the :4 version marker is common here)
+
+ concept_example_mechanic:0 "Example Mechanic"
+ concept_example_mechanic_desc:4 "This is a custom concept that can be referenced throughout the UI. [Concept('concept_pop', '$concept_pops$')] will be affected."
+
+ # ----------------------------------------------------------------------------
+ # 8. COLOR & TEXT FORMATTING CODES
+ # ----------------------------------------------------------------------------
+ # Victoria 3 uses inline color/formatting tags:
+ #   #bold text#!           = Bold text
+ #   #italic text#!         = Italic text
+ #   #red text#!            = Red text
+ #   #green text#!          = Green text
+ #   #blue text#!           = Blue text
+ #   #yellow text#!         = Yellow/Gold text
+ #   #gold text#!           = Gold text
+ #   #v text#!              = Variable / highlighted value
+ #   #tooltippable...#!     = Tooltip wrapper
+
+ formatting_demo:0 "This text has #bold bold words#!, #red red warnings#!, #green green bonuses#!, and #gold golden flair#!."
+
+ # ----------------------------------------------------------------------------
+ # 9. SCRIPTED REFERENCES & SCOPE VARIABLES
+ # ----------------------------------------------------------------------------
+ # You can embed dynamic game data using these patterns:
+ #   [ROOT.GetCountry.GetName]                     = Current country name
+ #   [ROOT.GetCountry.GetAdjective]                = Current country adjective
+ #   [ROOT.GetCountry.GetRuler.GetFullName]        = Ruler's full name
+ #   [SCOPE.sType('scope_name').GetMethod]         = Scoped variable access
+ #   [SCOPE.GetRootScope.GetCountry.GetName]       = Root scope country
+ #   [SCOPE.sCountry('scope_name').GetName]        = Named country scope
+ #   [SCOPE.sState('scope_name').GetName]          = Named state scope
+ #   [SCOPE.sCharacter('scope_name').GetFullName]  = Named character scope
+
+ scope_demo:0 "[ROOT.GetCountry.GetName] is ruled by [ROOT.GetCountry.GetRuler.GetFullName]."
+ scope_demo_2:0 "The state of [SCOPE.sState('example_state').GetName] has revolted!"
+
+ # ----------------------------------------------------------------------------
+ # 10. LAW, TECHNOLOGY, BUILDING & CULTURE REFERENCES
+ # ----------------------------------------------------------------------------
+ # These functions pull names from the game's database:
+ #   [GetLawType('law_key').GetName]               = Law name
+ #   [GetTechnology('tech_key').GetName]           = Technology name
+ #   [GetBuildingType('building_key').GetName]     = Building name
+ #   [GetCulture('culture_key').GetName]           = Culture name
+ #   [GetInterestGroupVariant('ig_key',GetPlayer).GetName]  = IG name
+ #   [GetReligion('religion_key').GetName]         = Religion name
+ #   [GetStateRegion('STATE_NAME').GetName]        = State region name
+ #   [GetGeographicRegion('region_key').GetName]   = Geographic region name
+ #   [GetStaticModifier('modifier_key').GetName]   = Modifier name
+ #   [GetStaticModifier('modifier_key').GetDesc]   = Modifier description
+ #   [GetCharacterTrait('trait_key').GetName]      = Character trait name
+ #   [GetIdeology('ideology_key').GetName]         = Ideology name
+
+ references_demo:0 "Enacting [GetLawType('law_universal_suffrage').GetName] pleases the [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetName]."
+
+ # ----------------------------------------------------------------------------
+ # 11. CONCEPT REFERENCES
+ # ----------------------------------------------------------------------------
+ # Concepts create clickable/hoverable links in the UI:
+ #   [concept_name]                                = Basic concept link
+ #   [Concept('concept_name', '$concept_name$')]   = Full syntax with display text
+ #   [Concept('concept_name', '$concept_names$')]  = Plural form
+
+ concept_ref_demo:0 "Our [concept_bureaucracy] is low. We need more [Concept('concept_pop', '$concept_pops$')] working in [Concept('concept_building', '$concept_buildings$')]."
+
+ # ----------------------------------------------------------------------------
+ # 12. VARIABLE & SCRIPT VALUE REFERENCES
+ # ----------------------------------------------------------------------------
+ # Access scripted variables and values:
+ #   [ROOT.MakeScope.Var('var_name').GetValue|v0]       = Integer variable
+ #   [ROOT.MakeScope.Var('var_name').GetValue|v1]       = 1 decimal place
+ #   [ROOT.MakeScope.Var('var_name').GetValue|%]        = Percentage
+ #   [ROOT.MakeScope.Var('var_name').GetValue|%v0]      = Percentage, no decimals
+ #   [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%] = Progress bar %
+ #   [JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]    = Progress bar value
+
+ variable_demo:0 "Current progress: [ROOT.MakeScope.Var('example_progress').GetValue|v1] out of 100."
+
+ # ----------------------------------------------------------------------------
+ # 13. TOOLTIP CUSTOMIZATION
+ # ----------------------------------------------------------------------------
+ # tooltippable creates hoverable tooltip sections:
+ #   #tooltippable;tooltip:[Country.GetTooltipTag],key_name Display Text#!
+ #   #tooltippable;tooltip:[GetPlayer.GetTooltipTag],key_name Display Text#!
+
+tooltip_demo:0 "The #tooltippable;tooltip:[GetPlayer.GetTooltipTag],example_tooltip_key Political Crisis#! is growing."
+ example_tooltip_key:0 "This tooltip appears when hovering over the colored text above."
+
+ # ----------------------------------------------------------------------------
+ # 14. MULTILINE STRINGS & DIVIDERS
+ # ----------------------------------------------------------------------------
+ # Use \n for newlines inside quoted strings.
+ # Custom dividers (defined elsewhere) can be inserted as variables.
+
+ multiline_demo:0 "Line one of the description.\nLine two with more details.\n\n#bold Final note:#! This is important."
+ divider_demo:0 "$HMPS_LONG_DELIMITER$\nThis section is separated by a visual divider.\n$HMPS_LONG_DELIMITER$"
+
+ # ----------------------------------------------------------------------------
+ # 15. EXTERNAL LOCALIZATION KEY REFERENCES
+ # ----------------------------------------------------------------------------
+ # You can reference another localization key using $key_name$ syntax:
+ #   $pmg_ownership$                               = Inserts value of pmg_ownership key
+
+ external_ref_demo:0 "This building uses the $concept_example_mechanic$ system."
+
+ # ----------------------------------------------------------------------------
+ # 16. PROGRESS BAR LOCALIZATION
+ # ----------------------------------------------------------------------------
+ # Custom progress bars in Journal Entries use these:
+ #   _core_progress_bar_name        = Bar label
+ #   _core_progress_bar_text_1      = Left side label
+ #   _core_progress_bar_text_2      = Right side label
+ #   _POSITIVE_PASSIVE_1..N         = Positive factors list
+ #   _NEGATIVE_PASSIVE_1..N         = Negative factors list
+
+ example_progress_bar_name:0 "Reform Progress"
+ example_progress_bar_text_1:0 "Progress: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100)"
+ example_progress_bar_text_2:0 "Opposition Strength"
+ example_POSITIVE_PASSIVE_1:0 "Having [GetLawType('law_dedicated_police').GetName] enacted"
+ example_NEGATIVE_PASSIVE_1:0 "Having [concept_turmoil] above 25%"
+
+ # ----------------------------------------------------------------------------
+ # 17. BUTTON LOCALIZATION (for JE custom buttons)
+ # ----------------------------------------------------------------------------
+ # Journal Entry buttons use:
+ #   _button      = Button label
+ #   _button_desc = Button hover description
+ #   .t0, .t1...  = Additional requirement/effect tooltips
+
+ example_action_button:0 "Take Action"
+ example_action_button_desc:0 "This button will trigger an effect."
+ example_action.t0:0 "Requires at least 50 [concept_bureaucracy]"
+ example_action.t1:0 "This will add a modifier to every [concept_incorporated_state]"
+
+ # ----------------------------------------------------------------------------
+ # 18. COMMENTS
+ # ----------------------------------------------------------------------------
+ # Any line starting with # is a comment and is ignored by the game.
+ # Comments are useful for organizing files and marking WIP / deprecated entries.
+
+ # This is a section header comment
+ # TODO: Add more localization for the upcoming patch
+ # defunct_loc:0 "This entry is no longer used"   # Can be removed in future cleanup
+
+ # ----------------------------------------------------------------------------
+ # 19. CONDITIONAL TOOLTIPS (tt suffixes)
+ # ----------------------------------------------------------------------------
+ # Tooltips that explain conditions often end with _tt:
+
+ example_condition_tt:0 "[SCOPE.GetRootScope.GetCountry.GetName] has #bold completed#! the reform."
+ example_condition_tt_not:0 "[SCOPE.GetRootScope.GetCountry.GetName] has #bold not#! completed the reform."
+
+ # ----------------------------------------------------------------------------
+ # 20. GAME RULES LOCALIZATION
+ # ----------------------------------------------------------------------------
+ # Game rules use a slightly different naming:
+ #   rule_key:0 "Rule Name"
+ #   rule_key_desc:0 "Rule description"
+ #   rule_key_option_name:0 "Option Name"
+ #   rule_key_option_desc:0 "Option description"
+
+ rule_example_difficulty:0 "Difficulty Setting"
+ rule_example_difficulty_desc:0 "Adjusts how challenging the game will be."
+ rule_example_difficulty_easy:0 "Easy"
+ rule_example_difficulty_easy_desc:0 "AI receives significant penalties."
+ rule_example_difficulty_hard:0 "Hard"
+ rule_example_difficulty_hard_desc:0 "AI receives significant bonuses."
