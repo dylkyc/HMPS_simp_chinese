@@ -145,3 +145,4 @@ war_exhaustion = {
 		desc = "WAR_EXHAUSTION_FROM_EVENTS"
 	}
 }
+}

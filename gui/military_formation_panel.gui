@@ -1335,8 +1335,9 @@ types military_formation_panel_types
 						flowcontainer = {
 							visible = "[MilitaryFormation.IsArmy]"
 							datamodel = "[FormationPanel.AccessCommanderOrdersPossibleForSelectedFormations]"
+							wrap_count = 6
 							spacing = 5
-							wrap_count = 7
+
 							item = {
 								widget = {
 									size = { 50 50 }
@@ -1682,7 +1683,6 @@ types military_formation_panel_types
 			parentanchor = hcenter
 			direction = vertical
 			spacing = 5
-			wrap_count = 7
 			datacontext = "[MilitaryFormation.GetShipList]"
 			datamodel = "[GetShipGroups]"
 
@@ -1873,7 +1873,6 @@ types military_formation_panel_types
 					hbox = {
 						margin = { 10 0 }
 						spacing = 5
-						wrap_count = 7
 						layoutpolicy_horizontal = expanding
 						layoutpolicy_vertical = expanding
 
@@ -2286,7 +2285,6 @@ types military_formation_panel_types
 						hbox = {
 							layoutpolicy_horizontal = expanding
 							spacing = 5
-							wrap_count = 7
 
 							hbox = {
 								spacing = 2
@@ -2614,7 +2612,6 @@ types military_formation_panel_types
 				minimumsize = { 153 -1 }
 				margin = { 0 5 }
 				spacing = 5
-				wrap_count = 7
 
 				background = {
 					using = dark_area
@@ -2669,12 +2666,10 @@ types military_formation_panel_types
 		flowcontainer = {
 			direction = vertical
 			spacing = 5
-			wrap_count = 7
 			parentanchor = hcenter 
 
 			flowcontainer = {
 				spacing = 5
-				wrap_count = 7
 				parentanchor = hcenter
 
 				unit_group_default_unit_button = {
@@ -2710,7 +2705,6 @@ types military_formation_panel_types
 			flowcontainer = {
 				parentanchor = hcenter
 				spacing = 5
-				wrap_count = 7
 
 				### REMOVE UNITS
 				button_icon_round_action = {
@@ -2769,7 +2763,6 @@ types military_formation_panel_types
 			flowcontainer = {
 				parentanchor = hcenter
 				spacing = 5
-				wrap_count = 7
 				datacontext = "[MilitaryFormation.GetSelectedUnitTypeForGroup(CombatUnitGroup.Self)]"
 
 				### REMOVE UNITS
@@ -2939,12 +2932,10 @@ types military_formation_panel_types
 		flowcontainer = {
 			direction = vertical
 			spacing = 5
-			wrap_count = 7
 			parentanchor = hcenter 
 
 			flowcontainer = {
 				spacing = 5
-				wrap_count = 7
 				parentanchor = hcenter
 
 				unit_group_default_unit_button = {
@@ -2986,7 +2977,6 @@ types military_formation_panel_types
 			flowcontainer = {
 				parentanchor = hcenter
 				spacing = 5
-				wrap_count = 7
 
 				widget = {
 					size = { 180 35 }
@@ -3014,7 +3004,6 @@ types military_formation_panel_types
 				direction = horizontal
 				parentanchor = hcenter
 				spacing = 5
-				wrap_count = 7
 				datacontext = "[MilitaryFormation.GetSelectedUnitTypeForGroup(CombatUnitGroup.Self)]"
 
 				widget = {
@@ -3063,7 +3052,6 @@ types military_formation_panel_types
 
 		flowcontainer = {
 			spacing = 5
-			wrap_count = 7
 
 			block "content_margins" {
 				margin_top = 5
@@ -3114,11 +3102,9 @@ types military_formation_panel_types
 				margin_left = 10
 				margin_bottom = 2
 				spacing = 5
-				wrap_count = 7
 
 				flowcontainer = {
 					spacing = 5
-					wrap_count = 7
 					wrap_count = 3
 					datamodel = "[MilitaryFormation.GetCombatUnitEntries]"
 
@@ -3321,7 +3307,6 @@ types military_formation_panel_types
 	type military_formation_unit_type_group_small = flowcontainer {
 		direction = vertical
 		spacing = 5
-		wrap_count = 7
 
 		block "minimumsize" {
 			minimumsize = { @panel_width 40 }
@@ -3334,7 +3319,6 @@ types military_formation_panel_types
 
 		flowcontainer = {
 			spacing = 5
-			wrap_count = 7
 
 			block "content_margins" {
 				margin = { 10 10 }
@@ -3921,7 +3905,6 @@ types military_formation_panel_types
 							flowcontainer = {
 								parentanchor = vcenter
 								spacing = 5
-								wrap_count = 7
 								margin_left = 5
 
 								icon = {
@@ -4009,7 +3992,6 @@ types military_formation_panel_types
 							flowcontainer = {
 								parentanchor = vcenter
 								spacing = 5
-								wrap_count = 7
 								margin_left = 5
 
 								textbox = {
@@ -4603,7 +4585,6 @@ types military_formation_panel_types
 					minimumsize = { 105 -1 }
 					margin = { 0 5 }
 					spacing = 5
-					wrap_count = 7
 
 					background = {
 						using = dark_area
@@ -4830,7 +4811,6 @@ types military_formation_panel_types
 				direction = vertical
 				parentanchor = vcenter
 				spacing = 5
-				wrap_count = 7
 
 				section_header_button = {
 					visible = "[Or(MilitaryFormationUnitEntry.IsDefaultType, GreaterThan_int32(MilitaryFormationUnitEntry.GetExpectedNumTotalUnits, '(int32)0'))]"
@@ -5105,7 +5085,6 @@ types military_formation_panel_types
 				parentanchor = hcenter
 				direction = vertical
 				spacing = 5
-				wrap_count = 7
 
 				textbox = {
 					autoresize = yes
@@ -5564,12 +5543,10 @@ types military_formation_panel_types
 			direction = vertical
 			parentanchor = vcenter
 			spacing = 5
-			wrap_count = 7
 
 			flowcontainer = {
 				parentanchor = hcenter
 				spacing = 5
-				wrap_count = 7
 				wrap_count = 3
 
 				### FLEET UPKEEP
@@ -6078,7 +6055,6 @@ types military_formation_panel_types
 		minimumsize = { @panel_width_plus_14 -1 }
 		direction = vertical
 		spacing = 5
-		wrap_count = 7
 		using = default_fade_in_out
 
 		divider_clean = {
@@ -6390,7 +6366,6 @@ types military_formation_panel_types
 				margin = { 10 10 }
 				direction = vertical
 				spacing = 5
-				wrap_count = 7
 
 				textbox = {
 					autoresize = yes
@@ -6472,7 +6447,6 @@ types military_formation_panel_types
 				margin = { 5 5 }
 				margin_right = 5
 				spacing = 5
-				wrap_count = 7
 
 				expand = {}
 
@@ -6912,7 +6886,6 @@ types military_formation_panel_types
 			direction = vertical
 			parentanchor = center
 			spacing = 5
-			wrap_count = 7
 
 			textbox = {
 				visible = "[Not(CombatUnit.IsConscript)]"

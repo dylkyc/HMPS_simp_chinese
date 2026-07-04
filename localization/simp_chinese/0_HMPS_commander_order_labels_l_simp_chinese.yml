@@ -1,0 +1,7 @@
+﻿l_simp_chinese:
+ commander_order_hmps_cav_recon_attack:0 "骑兵侦查进攻"
+ commander_order_hmps_cav_recon_defend:0 "骑兵侦查防御"
+ commander_order_hmps_flat_land_flank_attack:0 "骑兵侧翼进攻"
+ commander_order_hmps_cav_recon_attack_gerund:0 "骑兵侦查推进中"
+ commander_order_hmps_cav_recon_defend_gerund:0 "骑兵侦查防御中"
+ commander_order_hmps_flat_land_flank_attack_gerund:0 "骑兵侧翼推进中"

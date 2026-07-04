@@ -1,0 +1,6 @@
+﻿l_simp_chinese:
+ cav_recon_attack:0 "骑兵侦查进攻"
+ cav_recon_defend:0 "骑兵侦查防御"
+ flat_land_flank_attack:0 "平地侧翼进攻"
+ hmps_combat_unit_type_great_war_cav:0 "大战骑兵"
+ hmps_combat_unit_type_great_war_cav_desc:0 "通常配备左轮手枪和马刀的机动骑兵部队。装备步枪时也可作为骑马步枪兵作战。"
